@@ -9,7 +9,7 @@ This is my solution for <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-c
 
 ---
 
-## Identify and classify toxic online comments
+## Identify and Classify Toxic Online Comments
 
 Discussing things you care about can be difficult. The threat of abuse and harassment online means that many people stop expressing themselves and give up on seeking different opinions. Platforms struggle to effectively facilitate conversations, leading many communities to limit or completely shut down user comments.
 
@@ -54,7 +54,7 @@ Test shape:  (153164, 2)
 
 ---
 
-## Train Data after basic preprocessing and cleaning
+## Train Data after Basic Preprocessing and Cleaning
 
 <br>
 
@@ -69,7 +69,7 @@ Test shape:  (153164, 2)
 
 ---
 
-## Test Data after basic preprocessing and cleaning
+## Test Data after Basic Preprocessing and Cleaning
 
 <br>
 
@@ -163,7 +163,7 @@ def cleanData(text, stemming=False, lemmatize=False):
 
 ---
 
-## Our solution
+## Our Solution
 
 
 The final solution consists of ensemble of several machine learning models - 
