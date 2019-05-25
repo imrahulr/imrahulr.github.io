@@ -48,13 +48,14 @@ print('Test shape: ', test_df.shape)
 ```
 
 ```
-Train shape:  (159571, 8)<br>
+Train shape:  (159571, 8)
 Test shape:  (153164, 2)
 ```
 
 ---
 
 ## Train Data after basic preprocessing and cleaning
+
 <br>
 
 |   | id | comment_text | toxic | severe_toxic | obscene | threat | insult | identity_hate |
@@ -68,6 +69,7 @@ Test shape:  (153164, 2)
 ---
 
 ## Test Data after basic preprocessing and cleaning
+
 <br>
 
 |  | id | comment_text |
@@ -82,7 +84,7 @@ Test shape:  (153164, 2)
 
 ## Cleaning Data
 
-```
+```python
 def cleanData(text, stemming=False, lemmatize=False):    
     text = text.lower().split()
     text = " ".join(text)
@@ -128,31 +130,31 @@ def cleanData(text, stemming=False, lemmatize=False):
 
 ## Exploring Train Data
 
-### Number of Occurrences of each Output Class
+#### Number of Occurrences of each Output Class
 <p align="center">
 <img src="{{ site.baseurl }}/assets/images/toxic/noofoccurrences.png" alt="Number of Occurrences of each Class"/>
 </p>
 
-### Correlation between Output Classes
+#### Correlation between Output Classes
 <p align="center">
 <img src="{{ site.baseurl }}/assets/images/toxic/corr.png" alt="Correlation between Output Classes"/>   </p>
 
-### Words frequently occurring in Toxic Comments
+#### Words frequently occurring in Toxic Comments
 <p align="center">
 <img src="{{ site.baseurl }}/assets/images/toxic/wordtoxic.png" alt="Words frequently occurring in Toxic Comments"/>
 </p>
                                                                                                       
-### Words frequently occurring in Severe Toxic Comments
+#### Words frequently occurring in Severe Toxic Comments
 <p align="center">
 <img src="{{ site.baseurl }}/assets/images/toxic/wordstox.png" alt="Words frequently occurring in Severe Toxic Comments"/>
 </p>
 
-### Words frequently occurring in Threat Comments
+#### Words frequently occurring in Threat Comments
 <p align="center">
 <img src="{{ site.baseurl }}/assets/images/toxic/woedthreat.png" alt="Words frequently occurring in Threat Comments"/>
 </p>
 
-### Words frequently occurring in Insult Comments
+#### Words frequently occurring in Insult Comments
 <p align="center">
 <img src="{{ site.baseurl }}/assets/images/toxic/wordinsult.png" alt="Words frequently occurring in Insult Comments"/>
 </p>
