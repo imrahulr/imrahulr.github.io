@@ -162,7 +162,7 @@ section.recent-posts {
 .card-columns .card {
 	margin-bottom:20px;
 }
-.listfeaturedtag .wrapthumbnail {
+/* .listfeaturedtag .wrapthumbnail {
 	height:258px;
 	flex:0 0 auto;
 }
@@ -182,7 +182,7 @@ section.recent-posts {
 }
 .listfeaturedtag .card-block {
 	padding-left:0;
-}
+} */
 .listfeaturedtag h2.card-title,.listrecent h2.card-title {
 	font-size:1.3rem;
 	font-weight:500;
