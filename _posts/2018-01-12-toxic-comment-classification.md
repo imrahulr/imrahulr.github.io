@@ -3,7 +3,7 @@ layout: post-right-sidebar
 title:  "Toxic Comment Classification"
 author: imrahulr
 categories: [ NLP, Kaggle ]
-image: assets/images/2.jpg
+image: assets/images/2.png
 ---
 This is my solution for <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge">Toxic Comment Classification Challenge</a> hosted on Kaggle by Zigsaw. This solution ranked 15th on the private leaderboard.
 
@@ -58,7 +58,7 @@ Test shape:  (153164, 2)
 
 <br>
 
-|   | id | comment_text | toxic | severe_toxic | obscene | threat | insult | identity_hate |
+|   | ID | Comment Text | Toxic | Severe Toxic | Obscene | Threat | Insult | Identity Hate |
 |:--:|:---------------:|--------------|:---:|:---:|:---:|:---:|:---:|:---:|
 | 0 | 0000997932d777bf |	explanation why the edits made under my userna... |	0 |	0 |	0 |	0 |	0 |	0 |
 | 1 | 000103f0d9cfb60f |	d aww ! he matches this background colour i am... |	0 |	0 |	0 |	0 |	0 |	0 |
@@ -73,7 +73,7 @@ Test shape:  (153164, 2)
 
 <br>
 
-|  | id | comment_text |
+|  | ID | Comment Text |
 |:--:|:--------:|-------|
 | 0 | 00001cee341fdb12| 	yo bitch ja rule is more succesful then you wi... |
 | 1 | 0000247867823ef7| 	= = from rfc = = the title is fine as it is imo |
