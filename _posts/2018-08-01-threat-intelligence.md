@@ -1,6 +1,6 @@
 ---
 layout: post-right-sidebar
-title:  "Threat Intelligence"
+title:  "Predictive Threat Intelligence"
 author: imrahulr
 categories: [ Machine Learning, Big Data, Kafka, Cyber Security,  HMM ]
 image: assets/images/4.jpg
