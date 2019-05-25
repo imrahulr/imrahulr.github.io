@@ -7,6 +7,7 @@ image: assets/images/2.jpg
 ---
 This is my solution for <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge">Toxic Comment Classification Challenge</a> hosted on Kaggle by Zigsaw. This solution ranked 15th on the private leaderboard.
 
+---
 
 ## Identify and classify toxic online comments
 
@@ -30,6 +31,8 @@ The comments are to be tagged in the following six categories -
     <li>identity_hate</li>
 </ul>
 
+---
+
 ### Train and Test Data
 
 The training data contains a row per comment, with an id, the text of the comment, and 6 different labels that we have to predict.
@@ -44,10 +47,15 @@ print('Train shape: ', train_df.shape)
 print('Test shape: ', test_df.shape) 
 ```
 
+```
 Train shape:  (159571, 8)<br>
 Test shape:  (153164, 2)
+```
+
+---
 
 ## Train Data after basic preprocessing and cleaning
+<br>
 
 |   | id | comment_text | toxic | severe_toxic | obscene | threat | insult | identity_hate |
 |:--:|:---------------:|--------------|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -57,7 +65,10 @@ Test shape:  (153164, 2)
 | 3 | 0001b41b1c6bb37e |	more i cannot make any real suggestions on im...  |	0 |	0 |	0 |	0 |	0 |	0 |
 | 4 | 0001d958c54c6e35 |	you sir are my hero any chance you remember wh... |	0 |	0 |	0 |	0 |	0 |	0 |
 
+---
+
 ## Test Data after basic preprocessing and cleaning
+<br>
 
 |  | id | comment_text |
 |:--:|:--------:|-------|
@@ -67,9 +78,11 @@ Test shape:  (153164, 2)
 | 3 | 00017563c3f7919a| 	if you have a look back at the source the inf... |
 | 4 | 00017695ad8997eb| 	i do not anonymously edit articles at all |
 
+---
+
 ## Cleaning Data
 
-```python
+```
 def cleanData(text, stemming=False, lemmatize=False):    
     text = text.lower().split()
     text = " ".join(text)
@@ -111,35 +124,37 @@ def cleanData(text, stemming=False, lemmatize=False):
     return text
 ```
 
+---
+
 ## Exploring Train Data
 
 ### Number of Occurrences of each Output Class
 <p align="center">
-<img src="assets/images/toxic/noofoccurrences.png" alt="Number of Occurrences of each Class"/>
+<img src="{{ site.baseurl }}/assets/images/toxic/noofoccurrences.png" alt="Number of Occurrences of each Class"/>
 </p>
 
 ### Correlation between Output Classes
 <p align="center">
-<img src="assets/images/toxic/corr.png" alt="Correlation between Output Classes"/>                                     </p>
+<img src="{{ site.baseurl }}/assets/images/toxic/corr.png" alt="Correlation between Output Classes"/>   </p>
 
 ### Words frequently occurring in Toxic Comments
 <p align="center">
-<img src="assets/images/toxic/wordtoxic.png" alt="Words frequently occurring in Toxic Comments"/>
+<img src="{{ site.baseurl }}/assets/images/toxic/wordtoxic.png" alt="Words frequently occurring in Toxic Comments"/>
 </p>
                                                                                                       
 ### Words frequently occurring in Severe Toxic Comments
 <p align="center">
-<img src="assets/images/toxic/wordstox.png" alt="Words frequently occurring in Severe Toxic Comments"/>
+<img src="{{ site.baseurl }}/assets/images/toxic/wordstox.png" alt="Words frequently occurring in Severe Toxic Comments"/>
 </p>
 
 ### Words frequently occurring in Threat Comments
 <p align="center">
-<img src="assets/images/toxic/woedthreat.png" alt="Words frequently occurring in Threat Comments"/>
+<img src="{{ site.baseurl }}/assets/images/toxic/woedthreat.png" alt="Words frequently occurring in Threat Comments"/>
 </p>
 
 ### Words frequently occurring in Insult Comments
 <p align="center">
-<img src="assets/images/toxic/wordinsult.png" alt="Words frequently occurring in Insult Comments"/>
+<img src="{{ site.baseurl }}/assets/images/toxic/wordinsult.png" alt="Words frequently occurring in Insult Comments"/>
 </p>
 
 ---
@@ -164,6 +179,8 @@ The final solution consists of ensemble of several machine learning models -
 </ul>
 
 Each model was trained using 10 fold validation with proper hyperparameter tuning. We used LightGBM and simple weighted averaging for stacking these models.
+
+---
 
 ## Embeddings Used
 
@@ -190,6 +207,8 @@ Various pre-trained embeddings were used to create diverse models -
 </ul>
 
 ## Thank You!
+
+---
 
 ## Important Links
 
