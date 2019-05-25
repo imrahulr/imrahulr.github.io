@@ -5,7 +5,7 @@ author: imrahulr
 categories: [ NLP, Kaggle ]
 image: assets/images/2.png
 ---
-This is my solution for <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge">Toxic Comment Classification Challenge</a> hosted on Kaggle by Zigsaw. This solution ranked 15th on the private leaderboard.
+This is my solution for <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge">Toxic Comment Classification Challenge</a> hosted on Kaggle by Zigsaw. This solution ranked 15th on the private leaderboard. The code can be found in <a href="https://github.com/imrahulr/Toxic-Comment-Classification-Kaggle">this</a> Github repository.
 
 ---
 
@@ -52,6 +52,12 @@ Train shape:  (159571, 8)
 Test shape:  (153164, 2)
 ```
 
+The training dataset is highly imbalanced with about 1,43,346 clean comments and only 16,225 comments with toxicity as shown below - .
+
+<p align="center">
+<img src="{{ site.baseurl }}/assets/images/toxic/noofoccurrences.png" alt="Number of Occurrences of each Class"/>
+</p>
+
 ---
 
 ## Train Data after Basic Preprocessing and Cleaning
@@ -85,6 +91,8 @@ Test shape:  (153164, 2)
 ---
 
 ## Cleaning Data
+
+Pre-processing includes removing special symbols and punctuations from comments, converting to upper-case characters to lower case. The preprocessed comments were converted to fixed-length sequences by either truncating or padding with zeros. We can also perform stemming and lemmatization on the comments, but they are not effective when using deep learning architectures.
 
 ```python
 def cleanData(text, stemming=False, lemmatize=False):    
@@ -132,11 +140,6 @@ def cleanData(text, stemming=False, lemmatize=False):
 
 ## Exploring Train Data
 
-#### Number of Occurrences of each Output Class
-<p align="center">
-<img src="{{ site.baseurl }}/assets/images/toxic/noofoccurrences.png" alt="Number of Occurrences of each Class"/>
-</p>
-
 #### Correlation between Output Classes
 <p align="center">
 <img src="{{ site.baseurl }}/assets/images/toxic/corr.png" alt="Correlation between Output Classes"/>   </p>
@@ -182,7 +185,9 @@ The final solution consists of ensemble of several machine learning models -
 <li>LightGBM</li>
 </ul>
 
-Each model was trained using 10 fold validation with proper hyperparameter tuning. We used LightGBM and simple weighted averaging for stacking these models.
+Each model was trained using 10 fold validation with proper hyperparameter tuning. Each model was fed with starting 200 words along with 200 words from the end of the comments. This provided a significant boost in the performance since many comments were toxic at the end.
+
+Finally, we used LightGBM, Catboost and simple weighted averaging for stacking these models, thus creating a three-layer ensemble of models.
 
 ---
 
