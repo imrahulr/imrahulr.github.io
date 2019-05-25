@@ -172,14 +172,14 @@ section.recent-posts {
 	padding-left:0;
 	margin-bottom:15px;
 }
-/* .listfeaturedtag .thumbnail {
+.listfeaturedtag .thumbnail {
 	background-size:cover;
 	height:100%;
 	display:block;
 	background-position:38% 22% !important;
 	background-origin:border-box!important;
 	border-top-left-radius:2px;
-} */
+}
 .listfeaturedtag .card-block {
 	padding-left:0;
 }
