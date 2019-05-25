@@ -3,7 +3,7 @@ layout: post-right-sidebar
 title:  "Predictive Threat Intelligence"
 author: imrahulr
 categories: [ Machine Learning, Big Data, Kafka, Cyber Security,  HMM ]
-image: assets/images/4.jpg
+image: assets/images/4.png
 featured: true
 ---
 There are lots of powerful things you can do with the Markdown editor
