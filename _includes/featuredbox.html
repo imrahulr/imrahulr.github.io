@@ -2,14 +2,15 @@
 {% assign author = site.authors[post.author] %}
 <div class="col-sm-6">
 <div class="card">
-    <div class="row">
-        <div class="col-md-5 wrapthumbnail">
+    <!-- <div class="row"> -->
+        <!-- <div class="col-md-5 wrapthumbnail"> -->
             <a href="{{ post.url | absolute_url }}">
-            <div class="thumbnail" style="background-image:url({{ site.baseurl }}/{{ post.image }});">
-            </div>
+            <!-- <div class="thumbnail" style="background-image:url({{ site.baseurl }}/{{ post.image }});">
+            </div> -->
+            {% if post.image %} <img class="img-fluid" src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}"> {% endif %}
             </a>
-        </div>
-        <div class="col-md-7">
+        <!-- </div> -->
+        <!-- <div class="col-md-7"> -->
             <div class="card-block">
                 <h2 class="card-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
                 <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:25 }}</h4>
@@ -29,8 +30,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        <!-- </div> -->
+    <!-- </div> -->
 </div>
 </div>
 <!-- end post -->
