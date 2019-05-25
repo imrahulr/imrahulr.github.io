@@ -1,8 +1,8 @@
 ---
-layout: post
-title:  "Powerful things you can do with the Markdown editor"
-author: sal
-categories: [ Jekyll, tutorial ]
+layout: post-right-sidebar
+title:  "Threat Intelligence"
+author: imrahulr
+categories: [ Machine Learning, Big Data, Kafka, Cyber Security,  HMM ]
 image: assets/images/4.jpg
 featured: true
 ---

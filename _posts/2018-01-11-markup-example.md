@@ -1,7 +1,7 @@
 ---
 layout: post-right-sidebar
-title:  "Toxic Comment Classification Challenge"
-author: john
+title:  "Quora Insincere Question Classification"
+author: imrahulr
 categories: [ NLP, Deep Learning, Kaggle ]
 image: assets/images/6.jpg
 ---

@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "We all wait for summer"
-categories: [ Jekyll, tutorial ]
+layout: post-right-sidebar
+title:  "Deepfakes"
+author: imrahulr
+categories: [ Deepfakes, GANs, Autoencoder ]
 image: assets/images/1.jpg
 featured: true
 ---
