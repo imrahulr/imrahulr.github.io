@@ -185,7 +185,7 @@ The final solution consists of ensemble of several machine learning models -
 <li>LightGBM</li>
 </ul>
 
-Each model was trained using 10 fold validation with proper hyperparameter tuning. Each model was fed with starting 200 words along with 200 words from the end of the comments. This provided a significant boost in the performance since many comments were toxic at the end.
+Each model was trained using 10 fold validation with proper hyperparameter tuning. Each model was fed with starting 150 words along with 150 words from the end of the comments. This provided a significant boost in the performance since many comments were toxic at the end.
 
 Finally, we used LightGBM, Catboost and simple weighted averaging for stacking these models, thus creating a three-layer ensemble of models.
 
@@ -209,7 +209,7 @@ Various pre-trained embeddings were used to create diverse models -
 <li>The overall model got a ROC AUC score of 0.9874 on private LB.</li>
 <li>Preprocessing was not much impactful and did not significantly improve the score of any model.</li>
 <li>RNN models were significantly better than CNN models.</li>
-<li>The best model was DeepMoji followed by CNN-GRU and capsule network.</li>
+<li>The best model was <a href="#">recurrent capsule network</a> followed by DeepMoji and CNN-GRU.</li>
 <li>Adding attention layer to RNN models boosted their score.</li>
 <li>Logistic regression and LightGBM models had much lower scores but provided diversity.</li>
 <li>Some input samples were toxic only in the last few words. Thus, training each model on ending 150 words in addition to starting 150 words improved their performance.</li>
