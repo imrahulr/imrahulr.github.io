@@ -1,6 +1,6 @@
 ---
 layout: post-right-sidebar
-title:  "Predictive Maintenance System for Digitak Factory Automation"
+title:  "Predictive Maintenance for Digital Factory Automation"
 author: imrahulr
 categories: [ LSTM, Kalman Filter ]
 image: assets/images/5.jpg
