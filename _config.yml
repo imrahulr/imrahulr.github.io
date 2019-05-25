@@ -5,7 +5,7 @@ description: "My Personal Website"
 meta_description: "My Personal Website"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-paginate: 3
+paginate: 6
 baseurl: '/'
 email: 'rsrade14@gmail.com'
 google_analytics: 'UA-46278016-1'
