@@ -65,6 +65,7 @@ Test shape:  (153164, 2)
 | 2 | 000113f07ec002fd |	hey man i am really not trying to edit war it ... |	0 |	0 |	0 |	0 |	0 |	0 |
 | 3 | 0001b41b1c6bb37e |	more i cannot make any real suggestions on im...  |	0 |	0 |	0 |	0 |	0 |	0 |
 | 4 | 0001d958c54c6e35 |	you sir are my hero any chance you remember wh... |	0 |	0 |	0 |	0 |	0 |	0 |
+{:.table-striped}
 
 ---
 
@@ -79,6 +80,7 @@ Test shape:  (153164, 2)
 | 2 | 00013b17ad220c46| 	= = sources = = zawe ashton on lapland |
 | 3 | 00017563c3f7919a| 	if you have a look back at the source the inf... |
 | 4 | 00017695ad8997eb| 	i do not anonymously edit articles at all |
+{:.table-striped}
 
 ---
 
