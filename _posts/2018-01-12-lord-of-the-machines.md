@@ -6,11 +6,11 @@ categories: [ Macketing Campaigns, LightGBM, XGBoost, Ensembling ]
 image: assets/images/5.jpg
 ---
 
-This is my solution for <a href="https://datahack.analyticsvidhya.com/contest/lord-of-the-machines/">Lord of the Machine : Data Science Hackathon</a>hosted on Analytics Vidhya. This solution ranked 8th on the private leaderboard. The code can be found in <a href="https://github.com/imrahulr/Lord-of-the-Machines">this</a> Github repository.
+This is my solution for <a href="https://datahack.analyticsvidhya.com/contest/lord-of-the-machines/">Lord of the Machines: Data Science Hackathon</a> hosted on Analytics Vidhya. This solution ranked 8th on the private leaderboard. The code can be found in <a href="https://github.com/imrahulr/Lord-of-the-Machines">this</a> Github repository.
 
 ---
 
-## Precicting User Click Probability of Links inside a Mailer for AV E-mail Campaigns
+## Precicting User Click Probability of Links inside a Mailer for E-mail Campaigns
 
 Email Marketing is still the most successful marketing channel and the essential element of any digital marketing strategy. Marketers spend a lot of time in writing that perfect email, labouring over each word, catchy layouts on multiple devices to get them best in-industry open rates & click rates. How can I build my campaign to increase the click-through rates of email? - a question that is often heard when marketers are creating their email marketing plans. It's time to unlock marketing potential and build some exceptional data-science products for email marketing.
 
@@ -22,9 +22,9 @@ So, in this hackathon, the challenge was to predict the click probability of lin
 
 The train dataset used comprised of user-email interaction data of AV email campaigns from July 2017 to December 2017. The task was to predict the click probability of links inside a mailer for email campaigns from January 2018 to March 2018, which formed the test dataset.
 
-### Dataset Description
+#### Dataset Description
 
-#### campaign_data.csv
+##### campaign_data.csv
 
 Contains the features related to 52 email Campaigns
 
@@ -39,9 +39,9 @@ Contains the features related to 52 email Campaigns
 | email_body | Email Text |
 | subject | Email Subject |
 | email_url | Email URL |
+{:class="table table-bordered"}
 
-
-#### train.csv
+##### train.csv
 
 Contains the click and open information for each user corresponding to given campaign id (Jul 17 - Dec 17)
 
@@ -53,9 +53,9 @@ Contains the click and open information for each user corresponding to given cam
 | send_date | Time stamp for email sent |
 | is_open | Did not open - 0, Opened -1 |
 | is_click | Did not click - 0, clicked - 1 |
+{:class="table table-bordered"}
 
-
-#### test.csv
+##### test.csv
 
 Contains the user and campaigns for which is_click needs to be predicted (Jan 18 - Mar 18)
 
@@ -65,13 +65,13 @@ Contains the user and campaigns for which is_click needs to be predicted (Jan 18
 | campaign_id | Email Campaign ID |
 | user_id | User ID
 | send_date | Time stamp for email sent |
-
+{:class="table table-bordered"}
 
 ---
 
 ## Feature Extraction
 
-### Prominent Features Extracted
+##### Prominent Features Extracted
 - Date 
 - Time (in minutes)
 - Day of Week
@@ -146,7 +146,7 @@ After undersampling the data using RENN, the number of samples with is_click=0 w
 
 ## Our Solution
 
-The overall solution consists of a weighted average ensemble of two boosting algorithms -
+The overall solution consists of a weighted average ensemble of two boosting algorithms.
 - XGBoost
 - LightGBM
 
@@ -160,8 +160,10 @@ The overall solution consists of a weighted average ensemble of two boosting alg
 | LightGBM | 0.68173 | - |
 | XGBoost | 0.66823 | - |
 | Ensemble | 0.68799 | 0.68630 |
+{:class="table table-bordered"}
 
-#### Key Points - 
+<br>
+#### Key Points 
 
 - LightGBM outperformed XGBoost by a significant margin. Moreover, it required much less time to train than XGBoost. 
 - Extracting prominent features provided a major boost to the score. Most of these features were based on modelling user characteristics and extracting time series properties.
