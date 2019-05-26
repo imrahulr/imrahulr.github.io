@@ -71,6 +71,7 @@ Contains the user and campaigns for which is_click needs to be predicted (Jan 18
 
 ## Feature Extraction
 
+<br>
 ##### Prominent Features Extracted
 - Date 
 - Time (in minutes)
@@ -132,7 +133,7 @@ Further data analysis - <a href="https://github.com/imrahulr/Lord-of-the-Machine
 
 ---
 
-## Under-sampling using Repeated Edited Nearest Neighbour Algorithm
+## Undersampling using Repeated Edited Nearest Neighbour Algorithm
 
 The train dataset was highly imbalanced and contained 1010409 samples with is_click=0 while only 12782 samples with is_click=1.
 
