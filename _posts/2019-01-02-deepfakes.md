@@ -27,7 +27,7 @@ The main backbone of the network used in creating the above Deepfake is an autoe
 
 ### Generative Adverserial Networks
 
-Generative adverserial networks (GANs) are deep neural net architectures comprised of two nets - generator and discriminator, competing with each other. The generator network learns to generates new data instances, say images, while the discriminator, evaluates them for authenticity; i.e. it classifies these images as real or fake. So, the generator and discriminator are in a double feedback loop and push each other to get better in its task. 
+<a href="https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf">Generative adverserial networks</a> (GANs) are deep neural net architectures comprised of two nets - generator and discriminator, competing with each other. The generator network learns to generates new data instances, say images, while the discriminator, evaluates them for authenticity; i.e. it classifies these images as real or fake. So, the generator and discriminator are in a double feedback loop and push each other to get better in its task. 
 
 ![Generative Adversarial Network](/assets/images/df/df3.png)
 
@@ -44,6 +44,9 @@ First, we train a CNN-based encoder network on the hundreds of images of A and B
 Since we have two different distributions corresponding to A and B, we use two separate decoders which learn to reconstruct faces A and B respectively. The encoder needs to extract the most important features to recreate the original input for the decoders to work as desired. Such a encoder-decoder commbination is commonly called as autoencoder, and forms the generator net of our GAN. Thus, we have two GANs - GAN A (consisting of encoder and decoder A) and GAN B (consisting of the same encoder and decoder B). 
 
 In addition, we use two separate discriminators A and B, where each one learns to recognize real images better. When we feed generated images into the respective discriminator, the adverserial loss pushes the generator to create more realistic images. This eventually becomes a race until the generated images are not distinguishable from the real ones. 
+
+It takes 15 hours to train the network on Nvidia Tesla V100 GPU for around 50,000 iterations.
+
 
 ![Swapping faces](/assets/images/df/df5.png)
 

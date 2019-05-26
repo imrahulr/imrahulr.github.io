@@ -3,8 +3,9 @@ layout: post-right-sidebar
 title:  "Toxic Comment Classification"
 author: imrahulr
 categories: [ NLP, Kaggle ]
-image: assets/images/2.png
+image: assets/images/2.jpg
 ---
+
 This is my solution for <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge">Toxic Comment Classification Challenge</a> hosted on Kaggle by Zigsaw. This solution ranked 15th on the private leaderboard. The code can be found in <a href="https://github.com/imrahulr/Toxic-Comment-Classification-Kaggle">this</a> Github repository.
 
 ---
