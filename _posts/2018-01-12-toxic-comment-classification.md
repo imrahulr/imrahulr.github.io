@@ -64,7 +64,7 @@ The training dataset is highly imbalanced with about 1,43,346 clean comments and
 
 <br>
 
-|   | Comment Text |
+| ID | Comment Text |
 |:--:|--------------|
 | 0 |	explanation why the edits made under my userna... |
 | 1 |	d aww ! he matches this background colour i am... |
@@ -79,7 +79,7 @@ The training dataset is highly imbalanced with about 1,43,346 clean comments and
 
 <br>
 
-|  | Comment Text |
+| ID | Comment Text |
 |:--:|-------|
 | 0 | 	yo bitch ja rule is more succesful then you wi... |
 | 1 | 	= = from rfc = = the title is fine as it is imo |
