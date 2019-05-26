@@ -64,13 +64,13 @@ The training dataset is highly imbalanced with about 1,43,346 clean comments and
 
 <br>
 
-|   | ID | Comment Text | Toxic | Severe Toxic | Obscene | Threat | Insult | Identity Hate |
-|:--:|:---------------:|--------------|:---:|:---:|:---:|:---:|:---:|:---:|
-| 0 | 0000997932d777bf |	explanation why the edits made under my userna... |	0 |	0 |	0 |	0 |	0 |	0 |
-| 1 | 000103f0d9cfb60f |	d aww ! he matches this background colour i am... |	0 |	0 |	0 |	0 |	0 |	0 |
-| 2 | 000113f07ec002fd |	hey man i am really not trying to edit war it ... |	0 |	0 |	0 |	0 |	0 |	0 |
-| 3 | 0001b41b1c6bb37e |	more i cannot make any real suggestions on im...  |	0 |	0 |	0 |	0 |	0 |	0 |
-| 4 | 0001d958c54c6e35 |	you sir are my hero any chance you remember wh... |	0 |	0 |	0 |	0 |	0 |	0 |
+|   | Comment Text |
+|:--:|--------------|
+| 0 |	explanation why the edits made under my userna... |
+| 1 |	d aww ! he matches this background colour i am... |
+| 2 |	hey man i am really not trying to edit war it ... |
+| 3 |	more i cannot make any real suggestions on im...  |
+| 4 |	you sir are my hero any chance you remember wh... |
 {:class="table table-bordered"}
 
 ---
@@ -79,13 +79,13 @@ The training dataset is highly imbalanced with about 1,43,346 clean comments and
 
 <br>
 
-|  | ID | Comment Text |
-|:--:|:--------:|-------|
-| 0 | 00001cee341fdb12| 	yo bitch ja rule is more succesful then you wi... |
-| 1 | 0000247867823ef7| 	= = from rfc = = the title is fine as it is imo |
-| 2 | 00013b17ad220c46| 	= = sources = = zawe ashton on lapland |
-| 3 | 00017563c3f7919a| 	if you have a look back at the source the inf... |
-| 4 | 00017695ad8997eb| 	i do not anonymously edit articles at all |
+|  | Comment Text |
+|:--:|-------|
+| 0 | 	yo bitch ja rule is more succesful then you wi... |
+| 1 | 	= = from rfc = = the title is fine as it is imo |
+| 2 | 	= = sources = = zawe ashton on lapland |
+| 3 | 	if you have a look back at the source the inf... |
+| 4 | 	i do not anonymously edit articles at all |
 {:class="table table-bordered"}
 
 ---
