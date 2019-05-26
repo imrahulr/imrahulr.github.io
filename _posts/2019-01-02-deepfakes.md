@@ -17,7 +17,7 @@ featured: true
 
 Deepfakes have a potential to spread false, misleading information and create malicious hoaxes. So far, deepfakes have been limited to amateur hobbyists putting celebrities' faces on porn stars' bodies and making politicians say funny things. However, it would be just as easy to create a deepfake of an emergency alert warning an attack was imminent, or disrupt a close election by dropping a fake video or audio recording of one of the candidates days before voting starts. 
 
-So, we at COE, <a href="http://vjti.ac.in">VJTI</a> are working to create a robust solution for detecting fake videos. In order to detect deepfakes, we are trying exploit some of the discrepancies introduced by autoencoder based GANs while generating fakes. So far, we have built a GAN-based architecture which can swap faces in videos. We have created a fake video which brings Jack Ma in Bollywood by replacing Aamir Khan in a 3 Idiots movie scene. This is an attempt, on a lighter side, to show potential threat of AI DeepFakes to launch a campaign of distorted information and thereby mislead society.
+So, we at CoE-CNDS, <a href="http://vjti.ac.in">VJTI</a> are working to create a robust solution for detecting fake videos. In order to detect deepfakes, we are trying exploit some of the discrepancies introduced by autoencoder based GANs while generating fakes. So far, we have built a GAN-based architecture which can swap faces in videos. We have created a fake video which brings Jack Ma in Bollywood by replacing Aamir Khan in a 3 Idiots movie scene. This is an attempt, on a lighter side, to show potential threat of AI DeepFakes to launch a campaign of distorted information and thereby mislead society.
 
 <p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/f1zh0dQ3nrA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 
@@ -31,7 +31,7 @@ The main backbone of the network used in creating the above Deepfake is an autoe
 
 ![Generative Adversarial Network](/assets/images/df/df3.png)
 
-GANs have a huge potential because they can learn to mimic any distribution of data. Thhey can be taught to create worlds eerily similar to our own in any domain: images, music, speech, prose. 
+GANs have a huge potential because they can learn to mimic any distribution of data. They can be taught to create worlds eerily similar to our own in any domain: images, music, speech, prose. 
 
 ### Overall Architecture
 
@@ -43,19 +43,20 @@ First, we train a CNN-based encoder network on the hundreds of images of A and B
 
 Since we have two different distributions corresponding to A and B, we use two separate decoders which learn to reconstruct faces A and B respectively. The encoder needs to extract the most important features to recreate the original input for the decoders to work as desired. Such a encoder-decoder commbination is commonly called as autoencoder, and forms the generator net of our GAN. Thus, we have two GANs - GAN A (consisting of encoder and decoder A) and GAN B (consisting of the same encoder and decoder B). 
 
-In addition, we use two separate discriminators A and B, where each one learns to recognize real images better. When we feed generated images into the respective discriminator, the adverserial loss pushes the generator to create more realistic images. This eventually becomes a race until the generated images are not distinguishable from the real ones. 
+In addition, we use two separate discriminators A and B, where each one learns to differentiate between real and fake images better. When we feed generated images into the respective discriminator, the adverserial loss pushes the generator to generate more realistic images. This eventually becomes a race until the generated images are not distinguishable from the real ones. 
 
 It takes 15 hours to train the network on Nvidia Tesla V100 GPU for around 50,000 iterations.
 
 
 ![Swapping faces](/assets/images/df/df5.png)
 
-After training, during the swapping phase, if we want to swap the face of person A with face of person B, we pass the image A through the ecoder and use the decoder B to reconstruct the image. Since the decoder B has learnt to generate face B, we are essentially trying to generate face B with features of face A in the original image. In short, we have swapped the face A with face B. For generating videos, we need to repeat this step for each frame in the video.
+After training, during the swapping phase, if we want to swap the face of person A with face of person B, we pass the image A through the ecoder and use the decoder B to reconstruct the image. Since the decoder B has learnt to generate face B, we are essentially trying to generate face B with features of face A from the original image. In short, we have swapped the face A with face B. For generating videos, we need to repeat this step for each frame in the video.
 
 Some preprocessing and postprocessing techniques can be used to make better fake videos.
 
 ## Results
 
+To be updated..
 
 Our current research mainly focuses on exploiting features in generative fake videos in order to detect and identify the fake videos better.
 
