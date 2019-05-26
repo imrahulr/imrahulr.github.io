@@ -43,7 +43,7 @@ Contains the features related to 52 email Campaigns
 
 `train.csv`
 
-Contains the click and open information for each user corresponding to given campaign id (Jul 17 - Dec 17)
+Contains the click and open information for each user corresponding to given campaign id (Jul 2017 - Dec 2017)
 
 | Variable | Definition |
 |:--:|:-------:|
@@ -57,7 +57,7 @@ Contains the click and open information for each user corresponding to given cam
 
 `test.csv`
 
-Contains the user and campaigns for which is_click needs to be predicted (Jan 18 - Mar 18)
+Contains the user and campaigns for which is_click needs to be predicted (Jan 2018 - Mar 2018)
 
 | Variable | Definition |
 |:--:|:-------:|
