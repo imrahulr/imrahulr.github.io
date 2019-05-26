@@ -71,8 +71,7 @@ Contains the user and campaigns for which is_click needs to be predicted (Jan 18
 
 ## Feature Extraction
 
-<br>
-##### Prominent Features Extracted
+<b>Prominent Features Extracted - </b>
 - Date 
 - Time (in minutes)
 - Day of Week
