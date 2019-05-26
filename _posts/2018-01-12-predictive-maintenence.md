@@ -3,7 +3,7 @@ layout: post-right-sidebar
 title:  "Predictive Maintenance for Digital Factory Automation"
 author: imrahulr
 categories: [ LSTM, Kalman Filter ]
-image: assets/images/5.jpg
+image: assets/images/7.png
 ---
 Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one's self is very difficult. 
 
