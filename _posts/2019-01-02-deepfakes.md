@@ -9,14 +9,9 @@ featured: true
 
 <a href="https://en.wikipedia.org/wiki/Deepfake">Deepfake</a> is a technique for human image synthesis based on artificial intelligence. It is used to combine and superimpose existing images and videos onto source images or videos using a machine learning technique called a "generative adversarial network" (GAN). In other words, deepfakes are fake videos or audio recordings that look and sound just like the real thing.
 
-#### Swapping Faces
+#### Swapping Faces and Tampering Speech
 
-![Swapping Faces](/assets/images/df/df1.jpg)
-
-#### Tampering Speech
-
-![Tampering Speech](/assets/images/df/df2.jpeg)
-
+![Swapping Faces and Tampering Speech](/assets/images/df/df1.jpg)
 
 ## Threats posed by Deepfakes
 
@@ -59,6 +54,6 @@ Some preprocessing and postprocessing techniques can be used to make better fake
 ## Results
 
 
-We are currently working on developing an algorithm for detecting deepfakes.
+Our current research mainly focuses on exploiting features in generative fake videos in order to detect and identify the fake videos better.
 
 The code for <a href="#">this</a> with be shortly provided.
