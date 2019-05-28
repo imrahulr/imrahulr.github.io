@@ -21,7 +21,7 @@ Deepfakes have a potential to spread false, misleading information and create ma
 
 So, we at CoE-CNDS, <a href="http://vjti.ac.in">VJTI</a> are working to create a robust solution for detecting fake videos. In order to detect deepfakes, we are trying exploit some of the discrepancies introduced by autoencoder based GANs while generating fakes. So far, we have built a GAN-based architecture which can swap faces in videos. We have created a fake video which brings Jack Ma in Bollywood by replacing Aamir Khan in a 3 Idiots movie scene. This is an attempt, on a lighter side, to show potential threat of AI DeepFakes to launch a campaign of distorted information and thereby mislead society.
 
-<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/f1zh0dQ3nrA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe style="width:100%;" height="350" src="https://www.youtube.com/embed/f1zh0dQ3nrA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 
 --- 
 
