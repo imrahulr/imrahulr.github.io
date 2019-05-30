@@ -5,7 +5,7 @@ author: imrahulr
 categories: [ NLP, Deep Learning, Kaggle ]
 image: assets/images/6.jpg
 ---
-This is my solution for <a href="https://www.kaggle.com/c/quora-insincere-questions-classification">Quora Insincere Questions Challenge</a> hosted on Kaggle by Quora. This solution ranked 33th on the private leaderboard. The code can be found in <a href="#">this</a> Github repository.
+This is my solution for <a href="https://www.kaggle.com/c/quora-insincere-questions-classification">Quora Insincere Questions Classification</a> hosted on Kaggle by Quora. This solution ranked 33th on the private leaderboard. The code can be found in <a href="#">this</a> Github repository.
 
 ---
 
@@ -149,7 +149,7 @@ Each model is train for ~6 epochs on the training set with Adam optimizer and cy
 
 ## Important Links
 
-<a href="https://www.kaggle.com/c/quora-insincere-questions-classification">Quora Insincere Question Classification</a><br>
+<a href="https://www.kaggle.com/c/quora-insincere-questions-classification">Quora Insincere Questions Classification</a><br>
 <a href="https://www.kaggle.com/christofhenkel/how-to-preprocessing-when-using-embeddings">How to preprocess when using embeddings</a><br>
 <a href="https://www.kaggle.com/c/quora-insincere-questions-classification/discussion/80577#latest-471866">Summary of our solution by Soham</a><br>
 <a href="https://arxiv.org/abs/1506.01186">Cyclic Learning Rates for training Neural Networks</a>
