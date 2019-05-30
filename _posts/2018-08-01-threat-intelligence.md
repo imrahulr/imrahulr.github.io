@@ -50,15 +50,19 @@ A detailed analysis of the collected Cowrie honeypot logs can be found <a href="
 This section provides some analysis of the field **'Event ID'**, which will be used for subsequent modelling purposes. Event ID is a tag given to the activity of the attacker.
  
 ##### Number of occurrences of particular ‘Event ID’
-<p align="center">![Distribution-of-Event-ID]({{ site.baseurl }}/assets/images/pti/1.png)</p>
+<p align="center">
+<img src="{{ site.baseurl }}/assets/images/pti/1.png" alt="Distribution of Event IDs"/>
+</p>
 
 ##### Distribution of Input Events
 <p align="center">
-![Distribution-of-Input-Events]({{ site.baseurl }}/assets/images/pti/2.png)
+<img src="{{ site.baseurl }}/assets/images/pti/2.png" alt="Distribution of Input Events"/>
 </p>
 
 ##### Most Common IPs involved in Attacks
-<p align="center">![Common-source-IPs]({{ site.baseurl }}/assets/images/pti/3.png)</p>
+<p align="center">
+<img src="{{ site.baseurl }}/assets/images/pti/3.png" alt="Common source IPs"/>
+</p>
 
 The logged cowrie activity has 14 states each representing a particular event ID. The input command was then divided into 5 commands specifically write, system, sudo, delete and other with prominently emphases the malicious behaviour of attacker. The total 19 states are given below along with their corresponding IDs - 
 >0: 'cowrie.client.size', 1: 'cowrie.client.version', 2: 'cowrie.command.failed', 3: 'cowrie.command.input/delete', 4: 'cowrie.command.input/dir_sudo', 5: 'cowrie.command.input/other', 6: 'cowrie.command.input/system', 7: 'cowrie.command.input/write', 8: 'cowrie.command.success', 9: 'cowrie.direct-tcpip.data', 10: 'cowrie.direct-tcpip.request', 11: 'cowrie.log.closed', 12: 'cowrie.log.open', 13: 'cowrie.login.failed', 14: 'cowrie.login.success', 15: 'cowrie.session.closed', 16: 'cowrie.session.connect', 17: 'cowrie.session.file_download' and 18: 'cowrie.session.input'
@@ -83,7 +87,7 @@ state i to state j in the training sequences. The resulting Markov chain can be 
 
 The transition matrix can be used to generate a state propagation graph with 19 nodes and 69 edges, as shown below.
 <p align="center">
-![Markov-Chain-Propagation-Graph]({{ site.baseurl }}/assets/images/pti/4.png)
+<img src="{{ site.baseurl }}/assets/images/pti/4.png" alt="Markov Chain Propagation Graph"/>
 </p>
 
 ---
@@ -92,18 +96,18 @@ The transition matrix can be used to generate a state propagation graph with 19 
 
 <a href="https://medium.com/@kangeugine/hidden-markov-model-7681c22f5b9">Hidden Markov Model (HMM)</a> is a statistical Markov model with the unobserved states. In HMM the states are not visible, but the output depends on states that are visible. HMM is completely defined by:
 
-<p align="center">*$\phi$ = (A, B, $\pi$)*</p>
+<p align="center">ɸ = (A, B, π)</p>
 
 where,
-- Transition Probability Matrix *A = { a<sub>ij</sub>} *, where *a<sub>ij</sub>* is the probability of taking a transition from state *i* to state *j*.
+- Transition Probability Matrix *A = { a<sub>ij</sub> }*, where *a<sub>ij</sub>* is the probability of taking a transition from state *i* to state *j*.
 - Output Probability Distribution/Emission Matrix *B = { b<sub>i</sub>(k) }*, where *b<sub>i</sub>(k)* is the probability of emitting symbol *o<sub>k</sub>* when in state *i*.
 - Initial State Distribution \pi.
 
-In our context, the idea is to find values for *$\phi$ = (A, B, $\pi$)* such that the probability of the training observations is maximised. We perturb the parameters until they can no longer be improved i.e., the model is trained using the conventional Baum-Welch algorithm (which is a type of EM algorithm).
+In our context, the idea is to find values for *ɸ = (A, B, π)* such that the probability of the training observations is maximised. We perturb the parameters until they can no longer be improved i.e., the model is trained using the conventional Baum-Welch algorithm (which is a type of EM algorithm).
 
 The convergence (logarithmic probabilities) of the Hidden Markov Model being trained using EM algorithm is shown below - 
 <p align="center">
-![HMM-Training-Log-Probalilities]({{ site.baseurl }}/assets/images/pti/5.png)
+<img src="{{ site.baseurl }}/assets/images/pti/5.png" alt="HMM Training Log Probalilities"/>
 </p>
 
 The results of Hidden Markov Model are similar to that obtained from Markov Chain. But testing on real time logs of attacker actions for 1 month (which we did not use for training) showed a prediction accuracy of 77% as compared to Markov chain which had 72% accuracy.
@@ -149,7 +153,9 @@ Kafka has three major components -
 
 ## System Dataflow
 
-<p align="center">![System-Dataflow]({{ site.baseurl }}/assets/images/pti/6.jpg)</p>
+<p align="center">
+<img src="{{ site.baseurl }}/assets/images/pti/6.jpg" alt="System-Dataflow"/>
+</p>
 
 ##### Producer
 Each honeypot device has its own <a href="https://github.com/imrahulr/Predictive-Threat-Intelligence/blob/master/codes/kafka/log-producer/src/main/java/com/bigData/logProducer.java">producer module</a>. The producer is responsible for publishing the honeypot logs to the brokers. Each producer node subscribes to a cluster of Kafka brokers which automatically distributes the load among themselves. The producer constantly monitors the log produced by honeypot device, converts it to JSON format acceptable to the streamer and publishes it to an input topic. The JSON file consists of attack log details as well as the input offset of the attacker. To maintain the order of the input data, we assign the unique session id of each attacker as the key to the input topic.
@@ -167,13 +173,9 @@ Each honeypot device has its own <a href="https://github.com/imrahulr/Predictive
 We built a dashboard using Angular and NodeJS. Some screenshots of the dashboard are shown below - 
 
 <p align="center">
-
-![Dashboard-Graphs]({{ site.baseurl }}/assets/images/pti/7.png)
-
-![Dashboard-ML-1]({{ site.baseurl }}/assets/images/pti/8.png)
-
-![Dashboard-ML-2]({{ site.baseurl }}/assets/images/pti/9.png)
-
+<img src="{{ site.baseurl }}/assets/images/pti/7.png" alt="Dashboard-Graphs"/>
+<img src="{{ site.baseurl }}/assets/images/pti/8.png" alt="Dashboard-ML-1"/>
+<img src="{{ site.baseurl }}/assets/images/pti/9.png" alt="Dashboard-ML-2"/>
 </p>
 
 ---
