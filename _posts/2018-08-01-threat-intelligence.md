@@ -101,7 +101,7 @@ The transition matrix can be used to generate a state propagation graph with 19 
 where,
 - Transition Probability Matrix *A = { a<sub>ij</sub> }*, where *a<sub>ij</sub>* is the probability of taking a transition from state *i* to state *j*.
 - Output Probability Distribution/Emission Matrix *B = { b<sub>i</sub>(k) }*, where *b<sub>i</sub>(k)* is the probability of emitting symbol *o<sub>k</sub>* when in state *i*.
-- Initial State Distribution \pi.
+- Initial State Distribution π.
 
 In our context, the idea is to find values for *ɸ = (A, B, π)* such that the probability of the training observations is maximised. We perturb the parameters until they can no longer be improved i.e., the model is trained using the conventional Baum-Welch algorithm (which is a type of EM algorithm).
 
@@ -138,7 +138,7 @@ Kafka streams form the backbone of the overall system. The use of Kafka allows t
 
 <a href="https://kafka.apache.org/intro">Apache Kafka</a> is a publish/subscribe messaging system, commonly described as a “distributed commit log . The data within Kafka is stored durably, in order, and can be read deterministically. In addition, the data can be distributed within the system to provide additional protections against failures, as well as significant opportunities for scaling performance. 
 
-Kafka is generally used for two broad classes of applications:
+Kafka is generally used for two broad classes of applications -
 - Building real-time streaming data pipelines that reliably get data between systems or applications.
 - Building real-time streaming applications that transform or react to the streams of data.
 
