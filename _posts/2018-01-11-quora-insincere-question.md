@@ -5,7 +5,7 @@ author: imrahulr
 categories: [ NLP, Deep Learning, Kaggle ]
 image: assets/images/6.jpg
 ---
-This is my solution for <a href="https://www.kaggle.com/c/quora-insincere-questions-classification">Quora Insincere Questions Classification</a> hosted on Kaggle by Quora. This solution ranked 33th on the private leaderboard. The code can be found in <a href="#">this</a> Github repository.
+This is my solution for <a href="https://www.kaggle.com/c/quora-insincere-questions-classification">Quora Insincere Questions Classification</a> hosted on Kaggle by Quora. This solution ranked 33th on the private leaderboard. The code can be found in <a href="https://github.com/imrahulr/Quora-Insincere-Questions">this</a> Github repository.
 
 ---
 
@@ -49,7 +49,6 @@ The training data includes the question that was asked, and whether it was ident
 | 3 |	How did Otto von Guericke used the Magdeburg ...  | 0 |
 | 4 |	Can I convert montra helicon D to a mountain... | 0 |
 {:class="table table-bordered"}
-<br>
 
 `test.csv`
 
@@ -58,10 +57,9 @@ The training data includes the question that was asked, and whether it was ident
 | 0 |	Why do so many women become so rude and arroga... |
 | 1 |	When should I apply for RV college of engineer... |
 | 2 |	What is it really like to be a nurse practiti ... |
-| 3 |	Who are entrepreneurs?...  |
+| 3 |	Who are entrepreneurs? |
 | 4 |	Is education really making good people nowaday... |
 {:class="table table-bordered"}
-<br>
 
 ---
 
@@ -78,7 +76,7 @@ The training data includes the question that was asked, and whether it was ident
 
 The following preprocessing steps are performed - 
 - Converting all characters to lower case ones.
-- Replacing number by #
+- Replacing numbers by #s
 - Removing and cleaning punctuations (inserting a single space across punctuations)
 - Correcting common mis-spelled words
 
@@ -114,19 +112,19 @@ Preprocessing the data increases the percentage of vocabulary that is present in
 
 ## Models
 
-Since this was a kernel-only competitions, the following limits were imposed on the code -
+Since this was a kernel-only competition, the following limits were imposed on code -
 - GPU Kernel <= 2 hours run-time
 - No external data 
 - No custom packages
 
 Thus, we need to use simpler models with small run-times. So, our final solution consisted of a simple weighted linear average of following five deep learning models - 
-- LSTM + GRU each with 128 hidden units + Attention, with averaged GloVe and Paragram embeddings
+- LSTM + GRU (each with 128 hidden units) + Attention, with averaged GloVe and Paragram embeddings
 - LSTM + GRU (128) + Attention + Capsule, with averaged GloVe and Paragram embeddings + Gaussian Noise
 - LSTM + GRU (60), with Wiki News embeddings
 - LSTM + GRU (80), with Wiki News embeddings with different proprocessing
 - LSTM + GRU (80), with averaged GloVe and Paragram embeddings + Gaussian Noise         
 
-Each model is train for ~6 epochs on the training set with Adam optimizer and cyclic learning rate. The solution has a runtime of 6352 seconds as compared to total runtime of 7200 seconds.
+Each model is train for around 6 epochs on the training set with Adam optimizer and cyclic learning rate. The solution has a runtime of 6352 seconds as compared to total runtime of 7200 seconds.
 
 ---
 
