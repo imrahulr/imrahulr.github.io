@@ -8,7 +8,7 @@ favicon: 'assets/images/favicon.ico'
 paginate: 6
 baseurl: '/'
 email: 'rsrade14@gmail.com'
-google_analytics: 'UA-46278016-1'
+google_analytics: 'UA-141139264-1'
 disqus: 'myrah'
 sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
 

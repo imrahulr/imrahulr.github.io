@@ -170,6 +170,6 @@ The overall solution consists of a weighted average ensemble of two boosting alg
 - Undersampling the data also provided a significant increase in the score.
 - Boosting algorithms mostly ruled the competition.
 
-### Thank You!
+## Thank You!
 
 ---
