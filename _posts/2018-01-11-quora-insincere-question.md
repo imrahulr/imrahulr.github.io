@@ -65,10 +65,10 @@ The training data includes the question that was asked, and whether it was ident
 
 ## Embeddings Provided
 
-- Google News Vectors Negative 300
-- GloVe 840B 300D
-- Paragram 300D
-- Wiki News 300D 1M
+- Google News Vectors Negative - 300D
+- GloVe 840B - 300D
+- Paragram - 300D
+- Wiki News - 300D 1M
 
 ---
 
