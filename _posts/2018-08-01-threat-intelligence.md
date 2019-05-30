@@ -182,7 +182,7 @@ We built a dashboard using Angular and NodeJS. Some screenshots of the dashboard
 
 ## Deployment on DNIF
 
-We also deployed the machine learning algorithms as a look-up plugin on <a href="https://dnif.it/ai-ml-cyber-security/blog/modelling-attackers-behavioral-patterns.html">DNIF</a>. <a href="https://dnif.it/">DNIF</a> is a next generation SIEM platform.
+We also deployed the machine learning algorithms as a look-up plugin on <a href="https://dnif.it/ai-ml-cyber-security/blog/modelling-attackers-behavioral-patterns.html">DNIF</a> (a next generation SIEM platform).
 
 ## Thank You!
 
