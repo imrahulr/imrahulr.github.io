@@ -6,7 +6,7 @@ categories: [ LSTM, Kalman Filter, Siemens MakeIT Real Hackathon ]
 image: assets/images/7.png
 ---
 
-This idea was presented during <a href="https://www.hackerearth.com/challenges/hackathon/makeitreal/">Siemens MakeIT Real Hackathon 2017</a> hosted by Siemens at Bangalore. The idea was awarded 4th prize among all India participants.
+This idea was presented during <a href="https://www.hackerearth.com/challenges/hackathon/makeitreal/">Siemens MakeIT Real Hackathon 2017</a> hosted by Siemens at Bangalore. The idea was awarded 4th prize among all India participants. The code can be found in <a href="https://github.com/imrahulr/Pred-Maintenance-Siemens">this</a> Github repository.
 
 ---
 
@@ -18,9 +18,9 @@ Industrial plants increasingly make use of preventive maintenance to minimize do
 
 ## Our Solution
 
-In order to solve this problem, we built an end-to-end predictive maintenance system which collects data from sensors, uploads the data to a database, generates predictions regarding RUL of machines and notifies the results on a dashboard. The sensors monitor different parameters such as temperature, pressure and acceleration of different machine parts in order to keep a check on the performance of the rotary machine. At the server side, this data is used is used to train a machine learning model. This model predicts the remaining useful life (RUL) (i.e., time to failure) of the machine. These predictions are used to prevent failure of the machines by performing maintenance at appropriate time. We have also incorporated Fog computing which enables the system to take critical, urgent decisions with low time overhead.
+In order to solve this problem, we built an end-to-end predictive maintenance system which collects data from sensors, uploads the data to a database, generates predictions regarding RUL of machines and notifies the results on a dashboard. The sensors monitor different parameters such as temperature, pressure and acceleration of different machine parts in order to keep a check on the performance of the rotary machine. At the server side, this data is used is used to train a machine learning model. This model predicts the remaining useful life (RUL) i.e., time to failure of the machine. These predictions are used to prevent failure of the machines by performing maintenance at appropriate time. We have also incorporated Fog computing which enables the system to take critical, urgent decisions with low time overhead.
 
-The system monitors the condition of machines in order to estimate when maintenance should be performed. This allows convenient scheduling of corrective maintenance, and prevents unexpected machine failures by providing "the right information in the right time". By knowing which machine needs maintenance, maintenance work can be better planned (spare parts, people, etc.) and what would have been "unplanned stops" are transformed to shorter and fewer "planned stops", thus increasing plant availability. Other potential advantages include increased equipment lifetime, increased plant safety, fewer accidents with negative impact on environment, and optimized spare parts handling. Thus, this approach promises cost savings over routine or time-based preventive maintenance, because tasks are performed only when warranted. 
+The system monitors the condition of machines in order to estimate when maintenance should be performed. This allows convenient scheduling of corrective maintenance, and prevents unexpected machine failures by providing "the right information in the right time". By knowing which machine needs maintenance, maintenance work can be better planned and what would have been "unplanned stops" are transformed to shorter and fewer "planned stops", thus increasing plant availability. Other potential advantages include increased equipment lifetime, increased plant safety, fewer accidents with negative impact on environment, and optimized spare parts handling. Thus, this approach promises cost savings over routine or time-based preventive maintenance, because tasks are performed only when warranted. 
 
 ---
 
@@ -28,8 +28,8 @@ The system monitors the condition of machines in order to estimate when maintena
 
 The subsequent sections of the post focus on the machine learning part of the developed predictive maintenance system. We modelled the task of estimating RUL of machines both as a classification and a regression problem.
 
-- Classification approach provides a prediction of whether or not the machine will fail in next N hours.
-- Regression approach provides a prediction of the remaining useful life of the machine (in hours/cycles).
+- **Classification** approach provides a prediction of whether or not the machine will fail in next N hours.
+- **Regression** approach provides a prediction of the remaining useful life of the machine (in hours/cycles).
 
 The machine learning algorithm conists of a two-layered LSTM structure followed by a fully-connected layer to output the predictions. We also include dropout layers to minimize the overfitting caused by stacked LSTM layer. We use Adam optimizer for classification and RMSProp for regression; the models being trained until convergence.
 
