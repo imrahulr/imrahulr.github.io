@@ -190,6 +190,7 @@ We also deployed the machine learning algorithms as a look-up plugin on <a href=
 
 ## Important Links
 
+<a href="https://github.com/imrahulr/Predictive-Threat-Intelligence">Github Repository</a><br>
 <a href="https://link.springer.com/chapter/10.1007/978-981-13-3582-2_3">Temporal and Stochastic Modelling of Attacker Behaviour</a><br>
 <a href="https://github.com/cowrie/cowrie">Github - Cowrie Honeypot</a><br>
 <a href="https://github.com/imrahulr/Predictive-Threat-Intelligence/blob/master/codes/ml/data_visualization.ipynb">Data Analysis of Cowrie Honeypot Logs</a><br>

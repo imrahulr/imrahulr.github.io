@@ -158,6 +158,7 @@ Each model is train for around 6 epochs on the training set with Adam optimizer 
 
 ## Important Links
 
+<a href="https://github.com/imrahulr/Quora-Insincere-Questions">Github Repository</a><br>
 <a href="https://www.kaggle.com/c/quora-insincere-questions-classification">Quora Insincere Questions Classification</a><br>
 <a href="https://www.kaggle.com/christofhenkel/how-to-preprocessing-when-using-embeddings">How to preprocess when using embeddings</a><br>
 <a href="https://www.kaggle.com/c/quora-insincere-questions-classification/discussion/80577#latest-471866">Summary of our solution by Soham</a><br>

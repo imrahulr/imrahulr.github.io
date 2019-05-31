@@ -176,6 +176,7 @@ The overall solution consists of a weighted average ensemble of two boosting alg
 
 ## Important Links
 
+<a href="https://github.com/imrahulr/Lord-of-the-Machines">Github Repository</a><br>
 <a href="https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc">What is LightGBM?</a><br>
 <a href="https://xgboost.readthedocs.io/en/latest/">XGBoost</a><br>
 <a href="https://datahack.analyticsvidhya.com/contest/lord-of-the-machines/">Lord of the Machines: Data Science Hackathon</a>

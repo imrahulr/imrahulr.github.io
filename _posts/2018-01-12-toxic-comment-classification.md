@@ -222,6 +222,7 @@ Various pre-trained embeddings were used to create diverse models -
 
 ## Important Links
 
+<a href="https://github.com/imrahulr/Toxic-Comment-Classification-Kaggle">Github Repository</a><br>
 <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge">Toxic Comment Classification Challenge - Kaggle</a><br>
 <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjWg-LowaPbAhVGOI8KHb1RAfUQFggtMAA&url=https%3A%2F%2Fwww.ijcai.org%2FProceedings%2F16%2FPapers%2F408.pdf&usg=AOvVaw3csL-yYL5hsvDLyqjPHBcm">RNN for Text Classification</a><br>
 <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwjWg-LowaPbAhVGOI8KHb1RAfUQFgg-MAE&url=http%3A%2F%2Funivagora.ro%2Fjour%2Findex.php%2Fijccc%2Farticle%2Fdownload%2F3142%2Fpdf&usg=AOvVaw02sgX96hAwVlOEbe14etjm">Attention based RNN</a><br>
@@ -232,5 +233,6 @@ Various pre-trained embeddings were used to create diverse models -
 <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi6yNXFw6PbAhWIrI8KHfvuDFcQFggtMAA&url=https%3A%2F%2Fnlp.stanford.edu%2Fpubs%2Fglove.pdf&usg=AOvVaw3XPTcwWcbYOXnahjvpeDTu">GloVe</a><br>
 <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi7zezUw6PbAhWKYo8KHaGeCbAQFggoMAA&url=https%3A%2F%2Fgithub.com%2Ffacebookresearch%2FfastText&usg=AOvVaw1e2FnEQ3qGQ2tLYuDOSFJn">fastText</a><br>
 <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwih_vTaw6PbAhUHSY8KHTy0AeAQFggoMAA&url=https%3A%2F%2Fgithub.com%2Fbheinzerling%2Fbpemb&usg=AOvVaw1_Fi25NN0bQjS8u-2Pg_gK">BPE</a><br>
-<a href="https://www.kaggle.com/jagangupta/stop-the-s-toxic-comments-eda">EDA</a>
+<a href="https://www.kaggle.com/jagangupta/stop-the-s-toxic-comments-eda">EDA</a><br>
+<a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/discussion/52563#latest-300126">Summary of our solution by Mohsin</a>
 
