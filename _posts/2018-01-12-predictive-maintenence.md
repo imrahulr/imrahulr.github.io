@@ -69,12 +69,12 @@ Figure below show a time series plot of denoised sensor readings after employing
 
 For training the models, we used a window of size 50 i.e, consecutive 50 sensor readings in each input sample. The results obtained for classification problem on test dataset 1 are tabulated below - 
 
-| Model | Acc. | Precision | Recall | F1 |
-|:--:|:--:|:--:|:--:|:--:|
-| LSTM | 97 | 93 | 96 | 94 |
-| LGBM | 92 | 95 | 72 | 82 |
-| SVM | 93 | 100 | 72 | 84 |
-| XGB | 92 | 95 | 72 | 82 |
+| Model | Acc. | F1 |
+|:--:|:--:|:--:|
+| LSTM | 97 | 94 |
+| LGBM | 92 | 82 |
+| SVM | 93 | 84 |
+| XGB | 92 | 82 |
 {:class="table table-bordered"}
 
 For regression task, the model achieved a mean squared error of around *309* while predicting RUL on the test data. 
