@@ -1,6 +1,6 @@
 ---
 layout: post-right-sidebar
-title:  "Quora Insincere Question Classification"
+title:  "Quora Insincere Questions Classification"
 author: imrahulr
 categories: [ NLP, Deep Learning, Kaggle ]
 image: assets/images/6.jpg
