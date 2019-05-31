@@ -77,7 +77,7 @@ For training the models, we used a window of size 50 i.e, consecutive 50 sensor 
 | XGB | 92 | 95 | 72 | 82 |
 {:class="table table-bordered"}
 
-For regression task, the model achieved a mean squared error of around 309 while predicting RUL. 
+For regression task, the model achieved a mean squared error of around *309* while predicting RUL on the test data. 
 
 ##### Mean Squared Loss during Model Training
 
