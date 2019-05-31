@@ -110,6 +110,17 @@ Preprocessing the data increases the percentage of vocabulary that is present in
 
 ---
 
+## Common Words found in Insincere Questions 
+
+<p align="center">
+<img src="{{ site.baseurl }}/assets/images/quora/2.jpg" alt="Insincere Questions - Word Cloud"/>
+</p>
+
+<p align="center">
+<img src="{{ site.baseurl }}/assets/images/quora/1.png" alt="Insincere Questions - Common Word Count"/></p>
+
+---
+
 ## Models
 
 Since this was a kernel-only competition, the following limits were imposed on code -
@@ -124,7 +135,7 @@ Thus, we need to use simpler models with small run-times. So, our final solution
 - LSTM + GRU (80), with Wiki News embeddings with different proprocessing
 - LSTM + GRU (80), with averaged GloVe and Paragram embeddings + Gaussian Noise         
 
-Each model is train for around 6 epochs on the training set with Adam optimizer and cyclic learning rate. The solution has a runtime of 6352 seconds as compared to total runtime of 7200 seconds.
+Each model is train for around 6 epochs on the training set with Adam optimizer and cyclic learning rates. The solution has a runtime of 6352 seconds as compared to total runtime of 7200 seconds.
 
 ---
 
@@ -134,9 +145,9 @@ Each model is train for around 6 epochs on the training set with Adam optimizer 
 - Appropriate preprocessing increases the percentage of vocabulary that is present in the embeddings. This translates to a corresponding increase in performance of individual models.
 - Averaging GloVe and Paragram embeddings provides a considerable improvement in score as compared to individual ones. Also, the use of averaged embedddings rather then concatenated ones reduces the training time. 
 - Models with Wiki News embeddings achieved scores comparable to other models.
-- Adding Gaussian Noise after embeddings reduce the overdependence of LSTM on specific irrelevant words.
-- Creating diverse models improves the overall F1 score. For example, we can employ different preprocessing, embeddings and learning rate for different models to enhance diversity.
-- Using cylic learning rate scheduler while training allows the model to converge faster. This can reduced the training time (by 2-3 epochs).
+- Adding Gaussian Noise after embeddings reduces the overdependence of LSTM on specific irrelevant words.
+- Creating diverse models improves the overall F1 score.
+- Using cylic learning rate scheduler while training allows the model to converge faster. This reduces the training time (by 2-3 epochs).
 - The effects of random initialization were dominant in this competition. So, fixing this using a particular seed was important.
 - PyTorch is faster than Keras.
 - It is important to find a good validation set which correlates with the test set.
