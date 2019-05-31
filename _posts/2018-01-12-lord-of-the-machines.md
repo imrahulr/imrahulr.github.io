@@ -24,9 +24,7 @@ The train dataset used comprised of user-email interaction data of AV email camp
 
 #### Dataset Description
 
-`campaign_data.csv`
-
-Contains the features related to 52 email Campaigns
+`campaign_data.csv` - Contains the features related to 52 email Campaigns
 
 | Variable | Definition |
 |:--:|:-------:|
@@ -41,9 +39,7 @@ Contains the features related to 52 email Campaigns
 | email_url | Email URL |
 {:class="table table-bordered"}
 
-`train.csv`
-
-Contains the click and open information for each user corresponding to given campaign id (Jul 2017 - Dec 2017)
+`train.csv` - Contains the click and open information for each user corresponding to given campaign id (Jul 2017 - Dec 2017)
 
 | Variable | Definition |
 |:--:|:-------:|
@@ -55,9 +51,7 @@ Contains the click and open information for each user corresponding to given cam
 | is_click | Did not click - 0, clicked - 1 |
 {:class="table table-bordered"}
 
-`test.csv`
-
-Contains the user and campaigns for which is_click needs to be predicted (Jan 2018 - Mar 2018)
+`test.csv` - Contains the user and campaigns for which is_click needs to be predicted (Jan 2018 - Mar 2018)
 
 | Variable | Definition |
 |:--:|:-------:|
