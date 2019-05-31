@@ -6,7 +6,7 @@ categories: [ NLP, Kaggle ]
 image: assets/images/2.jpg
 ---
 
-This is my solution for <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge">Toxic Comment Classification Challenge</a> hosted on Kaggle by Zigsaw. This solution ranked 15th on the private leaderboard. The code can be found in <a href="https://github.com/imrahulr/Toxic-Comment-Classification-Kaggle">this</a> Github repository.
+This is my solution for <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge">Toxic Comment Classification Challenge</a> hosted on Kaggle by Zigsaw. This solution ranked 15th on the private leaderboard. The code can be found in <a href="https://github.com/imrahulr/Toxic-Comment-Classification-Kaggle">this</a> GitHub repository.
 
 ---
 
@@ -222,7 +222,7 @@ Various pre-trained embeddings were used to create diverse models -
 
 ## Important Links
 
-<a href="https://github.com/imrahulr/Toxic-Comment-Classification-Kaggle">Github Repository</a><br>
+<a href="https://github.com/imrahulr/Toxic-Comment-Classification-Kaggle">GitHub Repository</a><br>
 <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge">Toxic Comment Classification Challenge - Kaggle</a><br>
 <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjWg-LowaPbAhVGOI8KHb1RAfUQFggtMAA&url=https%3A%2F%2Fwww.ijcai.org%2FProceedings%2F16%2FPapers%2F408.pdf&usg=AOvVaw3csL-yYL5hsvDLyqjPHBcm">RNN for Text Classification</a><br>
 <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwjWg-LowaPbAhVGOI8KHb1RAfUQFgg-MAE&url=http%3A%2F%2Funivagora.ro%2Fjour%2Findex.php%2Fijccc%2Farticle%2Fdownload%2F3142%2Fpdf&usg=AOvVaw02sgX96hAwVlOEbe14etjm">Attention based RNN</a><br>

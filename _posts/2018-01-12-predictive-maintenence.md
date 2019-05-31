@@ -6,7 +6,7 @@ categories: [ LSTM, Kalman Filter, Siemens MakeIT Real Hackathon ]
 image: assets/images/7.png
 ---
 
-This idea was presented during <a href="https://www.hackerearth.com/challenges/hackathon/makeitreal/">Siemens MakeIT Real Hackathon 2017</a> hosted by Siemens at Bangalore. The idea was awarded 4th prize among all India participants. The code can be found in <a href="https://github.com/imrahulr/Pred-Maintenance-Siemens">this</a> Github repository.
+This idea was presented during <a href="https://www.hackerearth.com/challenges/hackathon/makeitreal/">Siemens MakeIT Real Hackathon 2017</a> hosted by Siemens at Bangalore. The idea was awarded 4th prize among all India participants. The code can be found in <a href="https://github.com/imrahulr/Pred-Maintenance-Siemens">this</a> GitHub repository.
 
 ---
 
@@ -112,7 +112,7 @@ The results are displayed on web dashboard and also notified to the operator usi
 
 ## Important Links
 
-<a href="https://github.com/imrahulr/Pred-Maintenance-Siemens">Github Repository</a><br>
+<a href="https://github.com/imrahulr/Pred-Maintenance-Siemens">GitHub Repository</a><br>
 <a href="https://www.hackerearth.com/challenges/hackathon/makeitreal/">Siemens MakeIT Real Hackathon</a><br>
 <a href="https://ti.arc.nasa.gov/c/6/">Dataset Used</a><br>
 <a href="https://en.wikipedia.org/wiki/Predictive_maintenance">Predictive Maintenance</a><br>

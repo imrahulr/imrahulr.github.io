@@ -7,7 +7,7 @@ image: assets/images/4.png
 featured: true
 ---
 Today, **threat intelligence** has become one of the emerging cynosures of information security. It's main functions include identifying the potential threats and predicting the nature of an attacker. Big data analytics solutions, backed by machine learning and artificial intelligence, can help tackle such problems of cybersecurity breach and hacking. By employing the power of big data and machine learning, we can significantly improve cyber threat detection mechanisms. Most recent work has focused on the detection of concrete network attacks using <a href="https://en.wikipedia.org/wiki/Intrusion_detection_system">Intrusion Detection Systems (IDS)</a> to raise an alert which subsequently requires human attention. However, we think inspecting the behavioural aspect of an attacker is more intuitive in order to take necessary security measures. So, in this work, we exploit machine learning algorithms for modelling attacker behaviour in order to better foresee his/her future actions. The results of these models are used to analyze different attack propagation and interaction patterns present in the system. These patterns can be used for a better understanding of the existing or evolving attacks and may also aid security experts to comprehend the mindset of an attacker. Additionally, we incorporate these machine learning algorithms into a big data system
-utilizing <a href="https://kafka.apache.org/documentation/streams/">Kafka Streams</a>. The code for this post can be found in <a href="https://github.com/imrahulr/Predictive-Threat-Intelligence">this</a> Github repository. 
+utilizing <a href="https://kafka.apache.org/documentation/streams/">Kafka Streams</a>. The code for this post can be found in <a href="https://github.com/imrahulr/Predictive-Threat-Intelligence">this</a> GitHub repository. 
 
 ---
 
@@ -190,9 +190,9 @@ We also deployed the machine learning algorithms as a look-up plugin on <a href=
 
 ## Important Links
 
-<a href="https://github.com/imrahulr/Predictive-Threat-Intelligence">Github Repository</a><br>
+<a href="https://github.com/imrahulr/Predictive-Threat-Intelligence">GitHub Repository</a><br>
 <a href="https://link.springer.com/chapter/10.1007/978-981-13-3582-2_3">Temporal and Stochastic Modelling of Attacker Behaviour</a><br>
-<a href="https://github.com/cowrie/cowrie">Github - Cowrie Honeypot</a><br>
+<a href="https://github.com/cowrie/cowrie">GitHub - Cowrie Honeypot</a><br>
 <a href="https://github.com/imrahulr/Predictive-Threat-Intelligence/blob/master/codes/ml/data_visualization.ipynb">Data Analysis of Cowrie Honeypot Logs</a><br>
 <a href="https://web.stanford.edu/~jurafsky/slp3/A.pdf">Markov Chain and HMMs - Stanford</a><br>
 <a href="https://kafka.apache.org/intro">Apache Kafka</a><br>
