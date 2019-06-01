@@ -6,13 +6,20 @@ comments: false
 
 ---
 
-To be updated...
-
-Education
----------
+### Education
 
     
 **B. Tech, Electronics Engineering 2015-2019**
 
 Veermata Jijabai Technological Institute (VJTI)
+
 *Department Rank : 1*
+
+---
+
+### Work Experience
+
+    
+**Research Assistant**
+
+Centre of Excellence
