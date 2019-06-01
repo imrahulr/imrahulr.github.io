@@ -19,7 +19,6 @@ comments: false
                     <div class="timeline-heading">
                         <h4 class="subheading">B. Tech in Electronics Engineering</h4>
                         <p class="text-muted">Veermata Jijabai Technological Institute<br>
-                        <!-- <h5>Centre of Excellence (CoE) in Complex & Nonlinear Dynamical Systems (CNDS), VJTI</h5> -->
                         June 2015 - May 2019</p>
                     </div>
                 </div>
