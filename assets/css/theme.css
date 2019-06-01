@@ -863,7 +863,7 @@ iframe {
 }
 
 
-/* New for Timline */
+/* Start - New for Timline */
 
 .timeline {
     position: relative;
@@ -1064,3 +1064,5 @@ iframe {
         padding: 0 100px 20px 20px;
     }
 }
+
+/* End - New for Timline */

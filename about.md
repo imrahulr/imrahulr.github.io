@@ -8,70 +8,56 @@ comments: false
 
 ### Education
 
+---
+
+### Work Experience
+
 <div class="row">
     <div class="col-lg-12">
         <ul class="timeline">
             <li>
                 <div class="timeline-image">
-                    <img class="img-circle img-responsive" src="assets/img/about/1.jpg" alt="">
+                    <img class="img-circle img-responsive" src="{{ site.baseurl }}/assets/images/about/1.jpg" alt="CoE-CNDS VJTI">
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>2009-2011</h4>
-                        <h4 class="subheading">Our Humble Beginnings</h4>
+                        <h4>May 2017 - Present</h4>
+                        <h4 class="subheading">Research Assistant</h4>
+                        <h5>Centre of Excellence (CoE) in Complex & Nonlinear Dynamical Systems (CNDS), VJTI</h5>
                     </div>
                     <div class="timeline-body">
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        <p class="text-muted">Research Areas - Machine Learning, Deep Learning, Computer Vision, Big Data, Statistical Learning, Threat Intelligence, Cyber Security</p>
                     </div>
                 </div>
             </li>
             <li class="timeline-inverted">
                 <div class="timeline-image">
-                    <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                    <img class="img-circle img-responsive" src="{{ site.baseurl }}/assets/images/about//about/3.png" alt="EY">
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>March 2011</h4>
-                        <h4 class="subheading">An Agency is Born</h4>
+                        <h4>Jun 2018 - Dec 2018</h4>
+                        <h4 class="subheading">Software Development Intern</h4>
+                        <h5>Ernst & Young</h5>
                     </div>
                     <div class="timeline-body">
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        <p class="text-muted">Developed a blockchain based POC which dealt with leveraging the benefits of blockchain for maintaining a safe, trustable land registry using ethereum, nodeJS and angularJS.</p>
                     </div>
                 </div>
             </li>
             <li>
                 <div class="timeline-image">
-                    <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                    <img class="img-circle img-responsive" src="img/about/2.png" alt="MT Educare">
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>December 2012</h4>
-                        <h4 class="subheading">Transition to Full Service</h4>
+                        <h4>May 2018 - Jun 2018</h4>
+                        <h4 class="subheading">Machine Learning Intern</h4>
+                        <h5>MT Educare</h5>
                     </div>
                     <div class="timeline-body">
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        <p class="text-muted">Worked on employing basic Natural Language Processing and statistical techniques in order to automate tedious, time-consuming tasks such as finding similar questions in a large database and mapping questions to concepts.</p>
                     </div>
-                </div>
-            </li>
-            <li class="timeline-inverted">
-                <div class="timeline-image">
-                    <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4>July 2014</h4>
-                        <h4 class="subheading">Phase Two Expansion</h4>
-                    </div>
-                    <div class="timeline-body">
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                    </div>
-                </div>
-            </li>
-            <li class="timeline-inverted">
-                <div class="timeline-image">
-                    <h4>Be Part
-                        <br>Of Our
-                        <br>Story!</h4>
                 </div>
             </li>
         </ul>
