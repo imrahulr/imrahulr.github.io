@@ -17,7 +17,7 @@ comments: false
         <ul class="timeline">
             <li>
                 <div class="timeline-image">
-                    <img class="rounded-circle img-circle img-responsive" src="{{ site.baseurl }}/assets/images/about/1.jpg" alt="CoE-CNDS VJTI">
+                    <img class="rounded-circle img-circle img-responsive" src="{{ site.baseurl }}/assets/images/about/1.jpeg" alt="CoE-CNDS VJTI">
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
@@ -47,13 +47,13 @@ comments: false
             </li>
             <li>
                 <div class="timeline-image">
-                    <img class="rounded-circle img-circle img-responsive" src="{{ site.baseurl }}/assets/images/about/2.png" alt="MT Educare">
+                    <img class="rounded-circle img-responsive" src="{{ site.baseurl }}/assets/images/about/2.png" alt="MT Educare">
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4 class="subheading">Machine Learning Intern</h4>
                         <h5>MT Educare</h5>
-                        <h5>May 2018 - Jun 2018</h5>
+                        <p class="text-muted">May 2018 - Jun 2018</p>
                     </div>
                     <div class="timeline-body">
                         <p class="text-muted">Worked on employing basic Natural Language Processing and statistical techniques in order to automate tedious, time-consuming tasks such as finding similar questions in a large database and mapping questions to concepts.</p>
