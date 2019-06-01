@@ -17,7 +17,7 @@ comments: false
         <ul class="timeline">
             <li>
                 <div class="timeline-image">
-                    <img class="rounded-circle img-responsive" src="{{ site.baseurl }}/assets/images/about/1.jpeg" alt="CoE-CNDS VJTI">
+                    <img class="rounded-circle img-responsive" src="{{ site.baseurl }}/assets/images/about/1.jpg" alt="CoE-CNDS VJTI">
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
