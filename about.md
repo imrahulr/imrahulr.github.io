@@ -21,9 +21,9 @@ comments: false
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>May 2017 - Present</h4>
                         <h4 class="subheading">Research Assistant</h4>
-                        <b>Centre of Excellence (CoE) in Complex & Nonlinear Dynamical Systems (CNDS), VJTI</b>
+                        <h5>Centre of Excellence (CoE) in Complex & Nonlinear Dynamical Systems (CNDS), VJTI</h5>
+                        <h5>May 2017 - Present</h5>
                     </div>
                     <div class="timeline-body">
                         <p class="text-muted">Research Areas - Machine Learning, Deep Learning, Computer Vision, Big Data, Statistical Learning, Threat Intelligence, Cyber Security</p>
@@ -36,9 +36,9 @@ comments: false
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>Jun 2018 - Dec 2018</h4>
                         <h4 class="subheading">Software Development Intern</h4>
-                        <b>Ernst & Young</b>
+                        <h5>Ernst & Young</h5>
+                        <h5>Jun 2018 - Dec 2018</h5>
                     </div>
                     <div class="timeline-body">
                         <p class="text-muted">Developed a blockchain based POC which dealt with leveraging the benefits of blockchain for maintaining a safe, trustable land registry using ethereum, nodeJS and angularJS.</p>
@@ -51,9 +51,9 @@ comments: false
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>May 2018 - Jun 2018</h4>
                         <h4 class="subheading">Machine Learning Intern</h4>
                         <h5>MT Educare</h5>
+                        <h5>May 2018 - Jun 2018</h5>
                     </div>
                     <div class="timeline-body">
                         <p class="text-muted">Worked on employing basic Natural Language Processing and statistical techniques in order to automate tedious, time-consuming tasks such as finding similar questions in a large database and mapping questions to concepts.</p>
