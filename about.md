@@ -32,7 +32,7 @@ comments: false
             </li>
             <li class="timeline-inverted">
                 <div class="timeline-image">
-                    <img class="rounded-circle img-circle img-responsive" src="{{ site.baseurl }}/assets/images/about//3.png" alt="EY">
+                    <img class="img-circle img-responsive" src="{{ site.baseurl }}/assets/images/about//3.png" alt="EY">
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
@@ -47,7 +47,7 @@ comments: false
             </li>
             <li>
                 <div class="timeline-image">
-                    <img class="rounded-circle img-circle img-responsive" src="{{ site.baseurl }}/assets/images/about/2.png" alt="MT Educare">
+                    <img class="img-circle img-responsive" src="{{ site.baseurl }}/assets/images/about/2.png" alt="MT Educare">
                 </div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
