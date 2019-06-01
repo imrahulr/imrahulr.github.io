@@ -33,9 +33,13 @@ post_class: post-template
 				<h1 class="posttitle">{{ page.title }}</h1> 
                 
 			</div>
-
+                
 			<!-- Post Featured Image -->
-			{% if page.image %}<img class="featured-image img-fluid" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{% endif %}
+            {% if page.image %}
+            <p align="center">
+                <img class="featured-image img-fluid" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
+            </p>            
+            {% endif %}
 			<!-- End Featured Image -->
 
 			<!-- Post Content -->
@@ -99,13 +103,6 @@ post_class: post-template
 		</div>
 		<!-- End Post -->
         
-        <!-- Right Sidebar -->
-        <!-- <div class="col-md-4 col-lg-4">
-        <div class="sidebar-right">
-        {% include sidebar.html %}
-        </div>
-        </div> -->
-
 	</div>
 
 <!-- End Article
