@@ -23,7 +23,7 @@ comments: false
                     <div class="timeline-heading">
                         <h4 class="subheading">Research Assistant</h4>
                         <h5>Centre of Excellence (CoE) in Complex & Nonlinear Dynamical Systems (CNDS), VJTI</h5>
-                        <h5>May 2017 - Present</h5>
+                        <p class="text-muted">May 2017 - Present</p>
                     </div>
                     <div class="timeline-body">
                         <p class="text-muted">Research Areas - Machine Learning, Deep Learning, Computer Vision, Big Data, Statistical Learning, Threat Intelligence, Cyber Security</p>
@@ -38,7 +38,7 @@ comments: false
                     <div class="timeline-heading">
                         <h4 class="subheading">Software Development Intern</h4>
                         <h5>Ernst & Young</h5>
-                        <h5>Jun 2018 - Dec 2018</h5>
+                        <p class="text-muted">Jun 2018 - Dec 2018</p>
                     </div>
                     <div class="timeline-body">
                         <p class="text-muted">Developed a blockchain based POC which dealt with leveraging the benefits of blockchain for maintaining a safe, trustable land registry using ethereum, nodeJS and angularJS.</p>
