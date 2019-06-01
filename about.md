@@ -8,6 +8,26 @@ comments: false
 
 ### Education
 
+<div class="row">
+    <div class="col-lg-12">
+        <ul class="timeline">
+            <li>
+                <div class="timeline-image">
+                    <img class="rounded-circle img-responsive" src="{{ site.baseurl }}/assets/images/about/e1.jpg" alt="VJTI">
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="subheading">B. Tech in Electronics Engineering</h4>
+                        <p class="text-muted">Veermata Jijabai Technological Institute<br>
+                        <!-- <h5>Centre of Excellence (CoE) in Complex & Nonlinear Dynamical Systems (CNDS), VJTI</h5> -->
+                        June 2015 - May 2019</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
 ---
 
 ### Work Experience
