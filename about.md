@@ -11,7 +11,7 @@ comments: false
 <div class="row">
     <div class="col-lg-12">
         <ul class="timeline">
-            <li>
+            <li class="timeline-inverted">
                 <div class="timeline-image">
                     <img class="rounded-circle img-responsive" src="{{ site.baseurl }}/assets/images/about/e1.jpg" alt="VJTI">
                 </div>
