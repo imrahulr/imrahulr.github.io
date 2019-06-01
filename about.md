@@ -8,10 +8,12 @@ comments: false
 
 To be updated...
 
-<!-- 
-### Education
+Education
+---------
 
-##### Veermata Jijabai Technological Institute (VJTI)
-**Bachelor of Technology in Electronics Engineering**
-2015-2019 -->
+2015-2019
+:   **B. Tech, Electronics Engineering** 
+    
+    Veermata Jijabai Technological Institute (VJTI)
 
+    *Thesis title: Predictive Threat Intelligence*
