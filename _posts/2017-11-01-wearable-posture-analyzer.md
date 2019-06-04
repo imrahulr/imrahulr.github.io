@@ -122,6 +122,8 @@ The aim of the system for posture training is to keep the slouching off as long 
 - Finding a suitable algorithm to classify the data and making sure the algorithm can generalize to a wide variety of data from different source and distribution.
 - Difficulty in finding and operating multi transceiver wireless protocol.
 
+---
+
 ## Non-Technical Challenges Faced
 
 - Making the sensor bands as comfortable as possible for the user.
@@ -129,6 +131,8 @@ The aim of the system for posture training is to keep the slouching off as long 
 - Our product being in a niche market, convincing people who have not heard of this niche to try our product.
 - Reducing the size of sensor band to be as small as possible.
 - Developing an enclosure for sensors which can handle rough and tough conditions.
+
+---
 
 ## Things that Add Further Value
 
