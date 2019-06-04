@@ -6,7 +6,7 @@ categories: [ LSTM, Kalman Filter, Siemens MakeIT Real Hackathon ]
 image: assets/images/7.png
 ---
 
-This idea was presented during <a href="https://www.hackerearth.com/challenges/hackathon/makeitreal/">Siemens MakeIT Real Hackathon 2017</a> hosted by Siemens at Bangalore. The idea was awarded 4th prize among all India participants. The code can be found in <a href="https://github.com/imrahulr/Pred-Maintenance-Siemens">this</a> GitHub repository.
+This project was presented at <a href="https://www.hackerearth.com/challenges/hackathon/makeitreal/">Siemens MakeIT Real Hackathon 2017</a> hosted by Siemens at Bangalore. The idea was awarded 4th prize among all India participants. The code can be found in <a href="https://github.com/imrahulr/Pred-Maintenance-Siemens">this</a> GitHub repository.
 
 ---
 
