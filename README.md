@@ -1,3 +1,3 @@
 ## My Personal Website
 
-[Link to GitHub Page](https://imrahulr.github.io)
+[Link to website](https://imrahulr.github.io)
