@@ -2,7 +2,7 @@
 layout: post-right-sidebar
 title:  "Predictive Threat Intelligence"
 author: imrahulr
-categories: [ Machine Learning, Big Data, Kafka, Cyber Security,  HMM ]
+categories: [ Machine Learning, Big Data, Kafka, Cyber Security,  HMM, CoE-CNDS ]
 image: assets/images/4.png
 featured: true
 ---
@@ -13,7 +13,7 @@ utilizing <a href="https://kafka.apache.org/documentation/streams/">Kafka Stream
 
 ## Data Collection
 
-For training and test the machine learning algorithms, we use a dataset consisting of over a million simulated attacks on a Cowrie honeypot system. <a href="https://github.com/cowrie/cowrie">Cowrie</a> is a medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker. We setup Cowrie Honeypot at COE, <a href="http://vjti.ac.in">VJTI</a>. Cowrie honeypot logs user activity in JSON files with distinct focus on terminal inputs and messages. The default JSON logging format employed is shown below-
+For training and test the machine learning algorithms, we use a dataset consisting of over a million simulated attacks on a Cowrie honeypot system. <a href="https://github.com/cowrie/cowrie">Cowrie</a> is a medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker. We setup Cowrie Honeypot at CoE-CNDS, <a href="http://vjti.ac.in">VJTI</a>. Cowrie honeypot logs user activity in JSON files with distinct focus on terminal inputs and messages. The default JSON logging format employed is shown below-
 
 ```
 {
@@ -182,7 +182,7 @@ We built a dashboard using Angular and NodeJS. Some screenshots of the dashboard
 
 ## Deployment on DNIF
 
-We also deployed the machine learning algorithms as a look-up plugin on <a href="https://dnif.it/ai-ml-cyber-security/blog/modelling-attackers-behavioral-patterns.html">DNIF</a> (a next generation SIEM platform).
+We also deployed the machine learning algorithms as a look-up plugin on <a href="https://dnif.it/ai-ml-cyber-security/blog/modelling-attackers-behavioral-patterns.html">DNIF</a> (a next generation SIEM platform). The project was also presented to <a href="https://www.linkedin.com/feed/update/urn:li:activity:6446607774972506112">officials from Cyber Peace Foundation during their visit at CoE-CNDS Lab, VJTI.</a>
 
 ## Thank You!
 

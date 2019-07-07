@@ -2,7 +2,7 @@
 layout: post-right-sidebar
 title:  "Deepfakes"
 author: imrahulr
-categories: [ Deepfakes, GANs, Autoencoder ]
+categories: [ Deepfakes, GANs, Autoencoder, CoE-CNDS ]
 image: assets/images/1.gif
 featured: true
 ---
@@ -19,7 +19,7 @@ featured: true
 
 Deepfakes have a potential to spread false, misleading information and create malicious hoaxes. So far, deepfakes have been limited to amateur hobbyists putting celebrities' faces on porn stars' bodies and making politicians say funny things. However, it would be just as easy to create a deepfake of an emergency alert warning an attack was imminent, or disrupt a close election by dropping a fake video or audio recording of one of the candidates days before voting starts. 
 
-So, we at CoE-CNDS, <a href="http://vjti.ac.in">VJTI</a> are working to create a robust solution for detecting fake videos. In order to detect deepfakes, we are trying exploit some of the discrepancies introduced by autoencoder based GANs while generating fakes. So far, we have built a GAN-based architecture which can swap faces in videos. We have created a fake video which brings Jack Ma in Bollywood by replacing Aamir Khan in a 3 Idiots movie scene. This is an attempt, on a lighter side, to show potential threat of AI DeepFakes to launch a campaign of distorted information and thereby mislead society.
+So, we at CoE-CNDS, <a href="http://vjti.ac.in">VJTI</a> are working to create a robust solution for detecting fake videos. In order to detect deepfakes, we are trying exploit some of the discrepancies introduced by autoencoder based GANs while generating fakes. So far, we have built a GAN-based architecture which can swap faces in videos. We have created a fake video which brings Jack Ma in Bollywood by replacing Aamir Khan in a 3 Idiots movie scene. <a href="https://www.linkedin.com/feed/update/urn:li:activity:6492073405196656640">This</a> is an attempt, on a lighter side, to show potential threat of AI DeepFakes to launch a campaign of distorted information and thereby mislead society.
 
 <p><iframe style="width:100%;" height="350" src="https://www.youtube.com/embed/f1zh0dQ3nrA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 
