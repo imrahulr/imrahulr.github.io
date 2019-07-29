@@ -328,14 +328,14 @@ span.post-name a,span.post-read-more a:hover {
 .profile-img {
 	height: 100px;
 	width: 100px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 .intro {
     background-image:url(../images/head.jpg);
     background-size:cover;
     padding: 3.5rem 0;
     margin-top:-67px;
-    margin-bottom:47px;
+    margin-bottom:27px;
     z-index: 1;
     position: relative;
 }
