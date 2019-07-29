@@ -373,8 +373,6 @@ span.post-name a,span.post-read-more a:hover {
     width: 700px;
     padding: 3rem;
     max-width: 90%;
-    margin-left: 5px;
-    margin-right: 5px;
     margin: 0px auto;
     text-align: center;
 }
@@ -863,10 +861,7 @@ iframe {
     	padding:1rem 0;
     	padding-top: 2rem;
     }
-    .wrapintro {
-    	padding: 2rem 1rem;
-    	padding-left: 1rem;
-    }
+    .wrapintro {padding: 2rem 1rem;}
     .intro h2 {margin-top: 1rem;   margin-bottom: 1rem;}
 }
 @media (max-width: 575px) {
