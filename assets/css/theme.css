@@ -326,9 +326,9 @@ span.post-name a,span.post-read-more a:hover {
 	margin-bottom:1rem;
 }
 .profile-img {
-	height: 100px;
+	height: 120px;
 	width: 100px;
-	padding-bottom: 5px;
+	padding-bottom: 20px;
 }
 .intro {
     background-image:url(../images/head.jpg);
