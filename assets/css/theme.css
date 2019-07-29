@@ -360,6 +360,8 @@ span.post-name a,span.post-read-more a:hover {
     width: 700px;
     padding: 3rem;
     max-width: 90%;
+    margin-left: 5px;
+    margin-right: 5px;
     margin: 0px auto;
     text-align: center;
 }
