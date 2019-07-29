@@ -328,7 +328,7 @@ span.post-name a,span.post-read-more a:hover {
 .intro {
     background-image:url(../images/head.jpg);
     background-size:cover;
-    padding: 0rem 0;
+    padding: 3.5rem 0;
     margin-top:-87px;
     margin-bottom:87px;
     z-index: 1;
@@ -854,6 +854,7 @@ iframe {
         margin-bottom: 1rem;
         margin-top: 1rem;
     }
+    .intro {padding:3rem 0;}
     .sidebar {max-width:100%;}
     .copyright .pull-left, .copyright .pull-right {float:none;}
     .beforefooter {text-align:center;}
