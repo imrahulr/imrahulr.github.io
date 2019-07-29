@@ -328,14 +328,14 @@ span.post-name a,span.post-read-more a:hover {
 .profile-img {
 	height: 100px;
 	width: 100px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .intro {
     background-image:url(../images/head.jpg);
     background-size:cover;
     padding: 3.5rem 0;
     margin-top:-67px;
-    margin-bottom:67px;
+    margin-bottom:47px;
     z-index: 1;
     position: relative;
 }
@@ -351,14 +351,18 @@ span.post-name a,span.post-read-more a:hover {
     font-size: 13px;
     letter-spacing: 1px;
 }
+.intro-text {
+    color: #888;
+}
 .intro h1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
     font-weight:700;
 }
 .intro h2 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    color: #888;
-    line-height: 1.6;
+    font-weight:700;
+    margin-bottom: 5px;
 }
 .wrapintro {
     background: #fff;
