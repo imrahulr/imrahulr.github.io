@@ -330,6 +330,9 @@ span.post-name a,span.post-read-more a:hover {
 	width: 100px;
 	margin-bottom: 15px;
 }
+.href-links {
+	scroll-behavior: smooth;
+}
 .intro {
     background-image:url(../images/head.jpg);
     background-size:cover;
