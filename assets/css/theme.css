@@ -337,6 +337,7 @@ span.post-name a,span.post-read-more a:hover {
     background-image:url(../images/head.jpg);
     background-size:cover;
     padding: 1rem 0;
+    padding-top: 3rem;
     margin-top:-77px;
     margin-bottom:17px;
     z-index: 1;
