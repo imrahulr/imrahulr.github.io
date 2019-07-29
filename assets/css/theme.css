@@ -358,7 +358,7 @@ span.post-name a,span.post-read-more a:hover {
 .wrapintro {
     background: #fff;
     width: 700px;
-    padding: 3rem;
+    padding: 0rem;
     max-width: 90%;
     margin: 0px auto;
     text-align: center;
@@ -844,7 +844,7 @@ iframe {
         margin-left: 0;
         margin-top: 10px;
     }
-    .intro {padding:3.5rem 0;}
+    .intro {padding:3rem 0;}
     .wrapintro {padding: 2rem 1rem;}
     .intro h2 {margin-top: 1rem;   margin-bottom: 1rem;}
 }
