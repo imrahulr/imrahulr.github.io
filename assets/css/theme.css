@@ -337,7 +337,7 @@ span.post-name a,span.post-read-more a:hover {
     background-image:url(../images/head.jpg);
     background-size:cover;
     padding: 1rem 0;
-    padding-top: 3rem;
+    padding-top: 2rem;
     margin-top:-77px;
     margin-bottom:17px;
     z-index: 1;
@@ -859,8 +859,14 @@ iframe {
         margin-left: 0;
         margin-top: 10px;
     }
-    .intro {padding:3rem 0;}
-    .wrapintro {padding: 2rem 1rem;}
+    .intro {
+    	padding:1rem 0;
+    	padding-top: 2rem;
+    }
+    .wrapintro {
+    	padding: 2rem 1rem;
+    	padding-left: 1rem;
+    }
     .intro h2 {margin-top: 1rem;   margin-bottom: 1rem;}
 }
 @media (max-width: 575px) {
