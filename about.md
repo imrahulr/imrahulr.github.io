@@ -13,6 +13,18 @@ comments: false
         <ul class="timeline">
             <li class="timeline">
                 <div class="timeline-image">
+                    <img class="rounded-circle img-responsive" src="{{ site.baseurl }}/assets/images/about/e2.png" alt="ETH Zurich">
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="subheading">MSc. in Electrical Engineering and Information Technology</h4>
+                        <p class="text-muted">ETH Zurich<br>
+                        Sept 2019 - Present</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image">
                     <img class="rounded-circle img-responsive" src="{{ site.baseurl }}/assets/images/about/e1.jpg" alt="VJTI">
                 </div>
                 <div class="timeline-panel">
