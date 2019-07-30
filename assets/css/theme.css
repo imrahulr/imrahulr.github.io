@@ -336,10 +336,9 @@ span.post-name a,span.post-read-more a:hover {
 .intro {
     background-image:url(../images/head.jpg);
     background-size:cover;
-    padding: 1rem 0;
-    padding-top: 2rem;
-    margin-top:-77px;
-    margin-bottom:17px;
+    padding: 9rem 0;
+    margin-top:-87px;
+    margin-bottom:3.5rem;
     z-index: 1;
     position: relative;
 }
@@ -858,8 +857,7 @@ iframe {
         margin-top: 10px;
     }
     .intro {
-    	padding:1rem 0;
-    	padding-top: 2rem;
+    	padding:3rem 0;
     }
     .wrapintro {padding: 2rem 1rem;}
     .intro h2 {margin-top: 1rem;   margin-bottom: 1rem;}
