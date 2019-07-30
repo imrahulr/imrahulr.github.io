@@ -142,9 +142,11 @@ jQuery(document).ready(function($){
       return false;
     });
 
-    $("a.sscroll[href='#footer-link']").click(function() {
-      $("html, body").animate({ scrollTop: 0 }, "slow");
-      return false;
+    $(document).on('click', 'a[href^="#footer-link"]', function (event) {
+      event.preventDefault();
+      $('html, body').animate({
+          scrollTop: $($.attr(this, 'href')).offset().top
+      }, 500);
     });
 
     // just jump
