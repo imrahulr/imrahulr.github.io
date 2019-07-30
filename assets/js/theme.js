@@ -142,6 +142,11 @@ jQuery(document).ready(function($){
       return false;
     });
 
+    $("a.sscroll[href='#footer-link']").click(function() {
+      $("html, body").animate({ scrollTop: 0 }, "slow");
+      return false;
+    });
+
     // just jump
     var jumptopageof = $('#jumptopageof');  
     if (jumptopageof.length) {
