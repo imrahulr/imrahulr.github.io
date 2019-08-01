@@ -6,6 +6,7 @@ categories: [ Machine Learning, Big Data, Kafka, Cyber Security,  HMM, CoE-CNDS 
 image: assets/images/4.png
 featured: true
 ---
+
 Today, **threat intelligence** has become one of the emerging cynosures of information security. It's main functions include identifying the potential threats and predicting the nature of an attacker. Big data analytics solutions, backed by machine learning and artificial intelligence, can help tackle such problems of cybersecurity breach and hacking. By employing the power of big data and machine learning, we can significantly improve cyber threat detection mechanisms. Most recent work has focused on the detection of concrete network attacks using <a href="https://en.wikipedia.org/wiki/Intrusion_detection_system">Intrusion Detection Systems (IDS)</a> to raise an alert which subsequently requires human attention. However, we think inspecting the behavioural aspect of an attacker is more intuitive in order to take necessary security measures. So, in this work, we exploit machine learning algorithms for modelling attacker behaviour in order to better foresee his/her future actions. The results of these models are used to analyze different attack propagation and interaction patterns present in the system. These patterns can be used for a better understanding of the existing or evolving attacks and may also aid security experts to comprehend the mindset of an attacker. Additionally, we incorporate these machine learning algorithms into a big data system
 utilizing <a href="https://kafka.apache.org/documentation/streams/">Kafka Streams</a>. The code for this post can be found in <a href="https://github.com/imrahulr/Predictive-Threat-Intelligence">this</a> GitHub repository. 
 
@@ -182,7 +183,7 @@ We built a dashboard using Angular and NodeJS. Some screenshots of the dashboard
 
 ## Deployment on DNIF
 
-We also deployed the machine learning algorithms as a look-up plugin on <a href="https://dnif.it/ai-ml-cyber-security/blog/modelling-attackers-behavioral-patterns.html">DNIF</a> (a next generation SIEM platform). The project also received appreciation from the officials of Cyber Peace Foundation and Mr. Alex Dunbar-Brooks (International Cyber Policy Economist) during <a href="https://www.linkedin.com/feed/update/urn:li:activity:6446607774972506112">their visit at CoE-CNDS Lab, VJTI.</a>
+We also deployed the machine learning algorithms as a look-up plugin on <a href="https://dnif.it/ai-ml-cyber-security/blog/modelling-attackers-behavioral-patterns.html">DNIF</a> (a next generation SIEM platform). The project also received appreciation from the officials of Cyber Peace Foundation and Mr. Alex Dunbar-Brooks (International Cyber Policy Economist) during <a href="https://www.linkedin.com/feed/update/urn:li:activity:6446607774972506112">their visit at CoE-CNDS Lab, VJTI.</a> This project was also appreciated by Mr. Prateek Thube (IPS Officer) during <a href="https://twitter.com/dnifHQ/status/1057970669491634176">his visit</a>.
 
 
 
