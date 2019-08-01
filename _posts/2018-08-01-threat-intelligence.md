@@ -7,7 +7,7 @@ image: assets/images/4.png
 featured: true
 ---
 
-This work presents a big-data based statistcal modelling framework coded in python, which uses Markov Chain, Hidden Markov Model and LSTM to model diverse attack patterns and predict the next move of the intruder.
+>A big-data based statistcal modelling framework coded in python, which uses Markov Chain, Hidden Markov Model and LSTM to model diverse attack patterns and predict the next move of the intruder.
 
 ---
 

@@ -6,7 +6,7 @@ categories: [ LSTM, Kalman Filter, Siemens MakeIT Real Hackathon ]
 image: assets/images/7.png
 ---
 
-The system utilizes a time-series algorithm to estimate the probability of failure of rotary machines and their remaining useful life (RUL) before the actual failure takes place.
+>Estimate the probability of failure of rotary machines and their remaining useful life (RUL) before the actual failure takes place.
 
 This project was presented at <a href="https://www.hackerearth.com/challenges/hackathon/makeitreal/">Siemens MakeIT Real Hackathon 2017</a> hosted by Siemens at Bangalore. The idea was awarded 4th prize among all India participants. The code can be found in <a href="https://github.com/imrahulr/Pred-Maintenance-Siemens">this</a> GitHub repository.
 
