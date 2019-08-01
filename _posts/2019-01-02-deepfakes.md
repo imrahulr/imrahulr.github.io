@@ -7,7 +7,7 @@ image: assets/images/1.gif
 featured: true
 ---
 
->Autoencoder-based generative adversarial networks to generate fake face-swapped videos. These pose a potential threat of spreading fallacious information.
+>Generative Adversarial Networks to generate fake face-swapped videos. These videos pose a potential threat of spreading fallacious information in the society.
 
 
 <a href="https://en.wikipedia.org/wiki/Deepfake">Deepfake</a> is a technique for human image synthesis based on artificial intelligence. It is used to combine and superimpose existing images and videos onto source images or videos using a machine learning technique called a "generative adversarial network" (GAN). In other words, deepfakes are fake videos or audio recordings that look and sound just like the real thing.
