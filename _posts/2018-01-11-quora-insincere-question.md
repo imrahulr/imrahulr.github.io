@@ -8,7 +8,7 @@ image: assets/images/6.jpg
 
 This work presents the use of deep learning for detecting insincere questions posted on Quora. This will aid to improve online conversations on Quora by impeding toxic content.
 
-This is our solution for <a href="https://www.kaggle.com/c/quora-insincere-questions-classification">Quora Insincere Questions Classification</a> hosted on Kaggle by Quora. This solution ranked 33th on the private leaderboard. The code can be found in <a href="https://github.com/imrahulr/Quora-Insincere-Questions">this</a> GitHub repository.
+This post provides our solution for <a href="https://www.kaggle.com/c/quora-insincere-questions-classification">Quora Insincere Questions Classification</a> hosted on Kaggle by Quora. This solution ranked 33th on the private leaderboard. The code can be found in <a href="https://github.com/imrahulr/Quora-Insincere-Questions">this</a> GitHub repository.
 
 ---
 

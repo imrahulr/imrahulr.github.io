@@ -8,7 +8,7 @@ image: assets/images/5.jpg
 
 This work employs gradient boosting algorithms to precict the user click probability of links inside a mailer for e-mail campaigns.
 
-This is my solution for <a href="https://datahack.analyticsvidhya.com/contest/lord-of-the-machines/">Lord of the Machines: Data Science Hackathon</a> hosted on Analytics Vidhya. This solution ranked 8th on the private leaderboard. The code can be found in <a href="https://github.com/imrahulr/Lord-of-the-Machines">this</a> GitHub repository.
+This post provides my solution for <a href="https://datahack.analyticsvidhya.com/contest/lord-of-the-machines/">Lord of the Machines: Data Science Hackathon</a> hosted on Analytics Vidhya. This solution ranked 8th on the private leaderboard. The code can be found in <a href="https://github.com/imrahulr/Lord-of-the-Machines">this</a> GitHub repository.
 
 ---
 
