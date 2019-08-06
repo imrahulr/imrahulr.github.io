@@ -67,7 +67,7 @@ Some preprocessing and postprocessing techniques can be used to make better fake
 
 Our current research mainly focuses on exploiting features in generative fake videos in order to detect and identify the fake videos better. Here are some results.
 
-<p><iframe style="width:100%;" height="350" src="https://drive.google.com/file/d/1S6z8FUB0U1Y93ocCGF8uJmDqEl3wqjiX/preview"></iframe></p>
+<p><iframe style="width:100%;" height="350" src="https://drive.google.com/file/d/1S6z8FUB0U1Y93ocCGF8uJmDqEl3wqjiX/preview" frameborder="0" allowfullscreen></iframe></p>
 
 - The network is trained for 50,000 iterations. This takes 15 hours on Nvidia Tesla V100 GPU.
 - We use custom loss functions to penalize the region around the eyes and the lips for generating realistic-looking facial movements. This also results in better consistency between source and target eye & lip movements.
