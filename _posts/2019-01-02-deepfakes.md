@@ -65,9 +65,9 @@ Some preprocessing and postprocessing techniques can be used to make better fake
 
 ## Results
 
-Our current research mainly focuses on exploiting features in generative fake videos in order to detect and identify the fake videos better. Here are some results.
+Our current research mainly focuses on exploiting features in generative fake videos in order to detect and identify the fake videos better. Here are some insights and results.
 
-<p><iframe style="width:100%;" height="350" src="https://drive.google.com/file/d/1S6z8FUB0U1Y93ocCGF8uJmDqEl3wqjiX/preview" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><img src="{{ site.baseurl }}/assets/images/df/df6.jpg" alt="More Results"/></p>
 
 - The network is trained for 50,000 iterations. This takes 15 hours on Nvidia Tesla V100 GPU.
 - We use custom loss functions to penalize the region around the eyes and the lips for generating realistic-looking facial movements. This also results in better consistency between source and target eye & lip movements.
@@ -75,8 +75,7 @@ Our current research mainly focuses on exploiting features in generative fake vi
 - When closely inspected, we can see that the generated faces don’t always match the exact positioning of the source face. When the network tries to blend such a generated face into the surroundings, it leaves digital artifacts in the resulting video. This also happens when there are sharp facial expressions in the source video. 
 - Morover, these situations can make a video look obviously doctored with blurry borders and artificially smooth skin, and can be exploited to detect fake videos.
 
-<p align="center"><img src="{{ site.baseurl }}/assets/images/df/df6.jpg" alt="More Results"/></p>
-
+<p><iframe style="width:100%;" height="350" src="https://drive.google.com/file/d/1S6z8FUB0U1Y93ocCGF8uJmDqEl3wqjiX/preview" frameborder="0" allowfullscreen></iframe></p>
 I am currently exploring various deep learning based approaches to detect such deepfakes. The code for <a href="#">this</a> with be shortly provided.
 
 ## Thank You!
