@@ -77,7 +77,7 @@ Our current research mainly focuses on exploiting features in generative fake vi
 
 <p><iframe style="width:100%;" height="350" src="https://drive.google.com/file/d/1S6z8FUB0U1Y93ocCGF8uJmDqEl3wqjiX/preview" frameborder="0" allowfullscreen></iframe></p>
 
-The code for <a href="#">this</a> with be shortly provided. To be updated...
+The code for <a href="#">this</a> with be shortly provided. To be updated.
 
 ## Thank You!
 
