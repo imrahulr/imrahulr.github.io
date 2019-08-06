@@ -65,19 +65,19 @@ Some preprocessing and postprocessing techniques can be used to make better fake
 
 ## Results
 
-Our current research mainly focuses on exploiting features in generative fake videos in order to detect and identify the fake videos better. Here are some insights and results.
+Our current research mainly focuses on exploiting features in generative fake videos in order to detect and identify the fake videos better. More insights and results are provided below.
 
 <p align="center"><img src="{{ site.baseurl }}/assets/images/df/df6.jpg" alt="More Results"/></p>
 
-- The network is trained for 50,000 iterations. This takes 15 hours on Nvidia Tesla V100 GPU.
-- We use custom loss functions to penalize the region around the eyes and the lips for generating realistic-looking facial movements. This also results in better consistency between source and target eye & lip movements.
+- The network is trained for 50,000 iterations. This takes 15 hours on <a href="https://www.nvidia.com/en-us/data-center/tesla-v100/">Nvidia Tesla V100 GPU</a>.
+- We use custom loss functions to penalize the region around the eyes and the lips for generating realistic-looking facial movements. This also results in better consistency between source & target eye and lip movements.
 - Using <a href="http://proceedings.mlr.press/v97/zhang19d.html">self-attention</a> in the network produces superior videos with higher output quality.
 - When closely inspected, we can see that the generated faces don’t always match the exact positioning of the source face. When the network tries to blend such a generated face into the surroundings, it leaves digital artifacts in the resulting video. This also happens when there are sharp facial expressions in the source video. 
 - Morover, these situations can make a video look obviously doctored with blurry borders and artificially smooth skin, and can be exploited to identify fake videos.
 
 <p><iframe style="width:100%;" height="350" src="https://drive.google.com/file/d/1S6z8FUB0U1Y93ocCGF8uJmDqEl3wqjiX/preview" frameborder="0" allowfullscreen></iframe></p>
 
-We are exploring various approaches to detect such deepfakes. The code for <a href="#">this</a> with be shortly provided.
+The code for <a href="#">this</a> with be shortly provided.
 
 ## Thank You!
 
@@ -88,7 +88,7 @@ We are exploring various approaches to detect such deepfakes. The code for <a hr
 <a href="https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf">Generative Adverserial Networks</a><br>
 <a href="https://en.wikipedia.org/wiki/Deepfake">Deepfakes</a><br>
 <a href="https://www.csoonline.com/article/3293002/deepfake-videos-how-and-why-they-work.html">How and why deepfake videos work — and what is at risk</a><br>
-<a href="https://grail.cs.washington.edu/projects/AudioToObama/siggraph17_obama.pdf">Synthesizing Obama: Learning Lip Sync from Audio</a>
-
+<a href="https://grail.cs.washington.edu/projects/AudioToObama/siggraph17_obama.pdf">Synthesizing Obama: Learning Lip Sync from Audio</a><br>
+<a href="http://proceedings.mlr.press/v97/zhang19d.html">Self-Attention Generative Adversarial Networks</a>
 
 
