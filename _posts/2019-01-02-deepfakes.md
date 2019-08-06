@@ -65,8 +65,6 @@ Some preprocessing and postprocessing techniques can be used to make better fake
 
 ## Results
 
-To be updated..
-
 Our current research mainly focuses on exploiting features in generative fake videos in order to detect and identify the fake videos better. Here are some results.
 
 <p><iframe style="width:100%;" height="350" src="https://drive.google.com/file/d/1S6z8FUB0U1Y93ocCGF8uJmDqEl3wqjiX/preview" frameborder="0" allowfullscreen></iframe></p>
