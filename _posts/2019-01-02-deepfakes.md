@@ -75,8 +75,10 @@ Our current research mainly focuses on exploiting features in generative fake vi
 - When closely inspected, we can see that the generated faces don’t always match the exact positioning of the source face. When the network tries to blend such a generated face into the surroundings, it leaves digital artifacts in the resulting video. This also happens when there are sharp facial expressions in the source video. 
 - Morover, these situations can make a video look obviously doctored with blurry borders and artificially smooth skin, and can be exploited to identify fake videos.
 
-<p><iframe style="width:100%;" height="350" src="https://drive.google.com/file/d/1S6z8FUB0U1Y93ocCGF8uJmDqEl3wqjiX/preview" frameborder="0" allowfullscreen></iframe></p>
+<a href="https://drive.google.com/file/d/1S6z8FUB0U1Y93ocCGF8uJmDqEl3wqjiX/view"><p align="center"><img src="{{ site.baseurl }}/assets/images/df/df7.jpg" alt="Swapping B. Obama with Naseeruddin Shah"/></p></a>
 
+<!-- <p><iframe style="width:100%;" height="350" src="https://drive.google.com/file/d/1S6z8FUB0U1Y93ocCGF8uJmDqEl3wqjiX/preview" frameborder="0" allowfullscreen></iframe></p>
+ -->
 The code for <a href="#">this</a> with be shortly provided. To be updated.
 
 ## Thank You!
