@@ -1,4 +1,4 @@
-<!-- begin post -->
+begin post -->
 {% assign author = site.authors[post.author] %}
 
 <div class="col-md-6 grid-item">
@@ -12,13 +12,14 @@
         <div class="metafooter">
             <div class="wrapfooter">
                 {% if post.author %}
-                <span class="meta-footer-thumb">
+                <!-- <span class="meta-footer-thumb">
                 <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
-                </span>                
+                </span> -->                
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="{{ author.web }}">{{ author.display_name }}</a></span><br/>
+                <a class="highlight" href="{{ site.baseurl }}/contact">Github</a>                
+                <!-- <span class="post-name"><a target="_blank" href="{{ author.web }}">{{ author.display_name }}</a></span><br/>
                 {% endif %}
-                <span class="post-date">{{ post.date | date_to_string }}</span>
+                <span class="post-date">{{ post.date | date_to_string }}</span> -->
                 </span>
                 <span class="post-read-more"><a href="{{ post.url | absolute_url }}" title="Read Story"><i class="fa fa-link"></i></a></span>
                 <div class="clearfix"></div>
@@ -27,4 +28,4 @@
     </div>
 </div>
 </div>
-<!-- end post -->
+<!-- end post
