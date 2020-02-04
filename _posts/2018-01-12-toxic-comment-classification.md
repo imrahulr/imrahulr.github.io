@@ -4,6 +4,7 @@ title:  "Toxic Comment Classification"
 author: imrahulr
 categories: [ NLP, Kaggle ]
 image: assets/images/2.jpg
+github: https://github.com/imrahulr/Toxic-Comment-Classification-Kaggle
 ---
 
 >Deep learning to identify and classify toxic comments on online forums.
