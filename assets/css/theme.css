@@ -110,9 +110,6 @@ section.recent-posts {
 .prevnextlinks .rightborder {
     border-right: 1px solid #eee;
 }
-.navbar {
-    background-color: #e6e6e6;
-}
 .navbar-toggleable-md .navbar-nav .nav-link {
     margin-left: 1rem;
     font-weight: 500;
@@ -385,7 +382,6 @@ span.post-name a,span.post-read-more a:hover {
     background-color:#000000;
 }
 .wrapintro {
-    background: #fff;
     width: 700px;
     padding: 3rem;
     max-width: 90%;
