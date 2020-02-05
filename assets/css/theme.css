@@ -359,6 +359,9 @@ span.post-name a,span.post-read-more a:hover {
 .intro-text {
     color: #888;
 }
+.navbar {
+    background-color: #e6e6e6;    
+}
 .bg-grey {
     background-color: #e6e6e6;
 }
@@ -382,7 +385,7 @@ span.post-name a,span.post-read-more a:hover {
     background-color:#000000;
 }
 .wrapintro {
-    width: 700px;
+    width: 800px;
     padding: 3rem;
     max-width: 90%;
     margin: 0px auto;
