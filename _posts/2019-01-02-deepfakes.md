@@ -4,7 +4,6 @@ title:  "Deepfakes"
 author: imrahulr
 categories: [ Deepfakes, GANs, Autoencoder, CoE-CNDS ]
 image: assets/images/1.gif
-featured: true
 ---
 
 >Generative Adversarial Networks to generate fake face-swapped videos. These videos pose a potential threat of spreading fallacious information in the society.
