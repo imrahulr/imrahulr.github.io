@@ -331,6 +331,7 @@ span.post-name a,span.post-read-more a:hover {
 	margin-bottom: 20px;
 }
 .intro {
+    background-color: #e6e6e6;
     background-size:cover;
     padding: 3rem 0;
     margin-top:-87px;
