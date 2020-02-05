@@ -3,7 +3,7 @@ layout: post-right-sidebar
 title:  Text Editor
 author: imrahulr
 categories: [ OOP, Data Structures, Java ]
-image: assets/images/4.png  
+image: assets/images/12.jpg  
 description:  A text editor built using Java.
 ---
 
