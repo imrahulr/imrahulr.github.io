@@ -5,8 +5,8 @@ author: imrahulr
 categories: [ Machine Learning, Big Data, Kafka, Cyber Security,  HMM, CoE-CNDS ]
 image: assets/images/4.png  
 description: A big-data based statistcal modelling framework coded in python, which uses Markov Chain, Hidden Markov Model and LSTM to model diverse attack patterns and predict the next move of the intruder.
----
-
+github: https://github.com/imrahulr/Predictive-Threat-Intelligence
+paper: https://github.com/imrahulr/Predictive-Threat-Intelligence/blob/master/Threat-Intelligence-Thesis.pdf
 ---
 
 Today, **threat intelligence** has become one of the emerging cynosures of information security. It's main functions include identifying the potential threats and predicting the nature of an attacker. Big data analytics solutions, backed by machine learning and artificial intelligence, can help tackle such problems of cybersecurity breach and hacking. By employing the power of big data and machine learning, we can significantly improve cyber threat detection mechanisms. Most recent work has focused on the detection of concrete network attacks using <a href="https://en.wikipedia.org/wiki/Intrusion_detection_system">Intrusion Detection Systems (IDS)</a> to raise an alert which subsequently requires human attention. However, we think inspecting the behavioural aspect of an attacker is more intuitive in order to take necessary security measures. So, in this work, we exploit machine learning algorithms for modelling attacker behaviour in order to better foresee his/her future actions. The results of these models are used to analyze different attack propagation and interaction patterns present in the system. These patterns can be used for a better understanding of the existing or evolving attacks and may also aid security experts to comprehend the mindset of an attacker. Additionally, we incorporate these machine learning algorithms into a big data system

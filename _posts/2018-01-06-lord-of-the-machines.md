@@ -5,7 +5,8 @@ author: imrahulr
 categories: [ Macketing Campaigns, LightGBM, XGBoost, Ensembling ]
 image: assets/images/5.jpg
 description: Precicting the user click probability of links inside a mailer for e-mail campaigns using gradient boosting algorithms.
-
+github: https://github.com/imrahulr/Lord-of-the-Machines
+lb: https://datahack.analyticsvidhya.com/contest/lord-of-the-machines/
 ---
 
 This post provides my solution for <a href="https://datahack.analyticsvidhya.com/contest/lord-of-the-machines/">Lord of the Machines: Data Science Hackathon</a> hosted on Analytics Vidhya. This solution ranked 8th on the private leaderboard. The code can be found in <a href="https://github.com/imrahulr/Lord-of-the-Machines">this</a> GitHub repository.
