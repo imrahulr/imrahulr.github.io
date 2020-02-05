@@ -327,6 +327,11 @@ span.post-name a,span.post-read-more a:hover {
 	width: 150px;
 	margin-bottom: 20px;
 }
+.profile-img-sidebar {
+    height: 80px;
+	width: 80px;
+	margin-bottom: 10px;
+}
 .intro {
     background-size:cover;
     padding: 3rem 0;
