@@ -132,9 +132,6 @@ section.recent-posts {
     padding-right: 1em;
     
 }
-.navbar-toggler {
-    z-index:9999;
-}
 
 .navbar-toggleable-md .navbar-nav .nav-link {
     margin-left: 1rem;
