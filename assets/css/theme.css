@@ -116,7 +116,8 @@ section.recent-posts {
     color: #333;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 0.94em;        
+    font-size: 0.94em;  
+    background-color: #e6e6e6;      
 	}
 .navbar-toggleable-md .navbar-nav .nav-link.highlight {
     background: #6FD350;
