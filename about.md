@@ -43,6 +43,7 @@ comments: false
 
 ### Work Experience
 
+<div class="col-sm-8">
 <div class="row">
     <div class="col-lg-12">
         <ul class="timeline">
@@ -93,4 +94,9 @@ comments: false
             </li>
         </ul>
     </div>
+</div>
+</div>
+
+<div class="col-sm-4">
+    {% include sidebar.html %}
 </div>
