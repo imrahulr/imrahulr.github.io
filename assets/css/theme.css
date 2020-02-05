@@ -327,8 +327,8 @@ span.post-name a,span.post-read-more a:hover {
 	margin-bottom: 20px;
 }
 .profile-img-sidebar {
-    height: 80px;
-	width: 80px;
+    height: 100px;
+	width: 100px;
 	margin-bottom: 10px;
 }
 .intro {
@@ -390,6 +390,9 @@ span.post-name a,span.post-read-more a:hover {
     padding: 3rem;
     max-width: 90%;
     margin: 0px auto;
+    text-align: center;
+}
+.wrap-profile-img-sidebar {
     text-align: center;
 }
 .footer {
