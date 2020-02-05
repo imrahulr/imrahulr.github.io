@@ -117,7 +117,12 @@ section.recent-posts {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 0.94em;  
-	}
+    }
+
+.nav-link:hover {
+    background-color: #3c3838;
+}
+
 .navbar-toggleable-md .navbar-nav .nav-link.highlight {
     background: #6FD350;
     color: #fff;
