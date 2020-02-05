@@ -951,8 +951,8 @@ iframe {
     z-index: 100;
     position: absolute;
     left: 0;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin-left: 0;
     border: 7px solid #f1f1f1;
     border-radius: 100%;
@@ -962,14 +962,14 @@ iframe {
 }
 
 .timeline>li .timeline-image h4 {
-    margin-top: 5px;
+    margin-top: 12px;
     font-size: 10px;
-    line-height: 12px;
+    line-height: 14px;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
-    padding: 0 20px 0 50px;
+    padding: 0 20px 0 100px;
     text-align: left;
 }
 
