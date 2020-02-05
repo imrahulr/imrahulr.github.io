@@ -4,9 +4,8 @@ title:  "Predictive Threat Intelligence"
 author: imrahulr
 categories: [ Machine Learning, Big Data, Kafka, Cyber Security,  HMM, CoE-CNDS ]
 image: assets/images/4.png  
+description: A big-data based statistcal modelling framework coded in python, which uses Markov Chain, Hidden Markov Model and LSTM to model diverse attack patterns and predict the next move of the intruder.
 ---
-
->A big-data based statistcal modelling framework coded in python, which uses Markov Chain, Hidden Markov Model and LSTM to model diverse attack patterns and predict the next move of the intruder.
 
 ---
 

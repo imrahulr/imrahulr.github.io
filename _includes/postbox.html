@@ -8,7 +8,8 @@
     </a>
     <div class="card-block">
         <h2 class="card-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-        <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
+        <!-- <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4> -->
+        <h4 class="card-text">{{ post.description }}</h4>
         <div class="metafooter">
             <div class="wrapfooter">
                 <!-- {% if post.author %} -->

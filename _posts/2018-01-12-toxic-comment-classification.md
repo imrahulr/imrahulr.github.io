@@ -5,9 +5,8 @@ author: imrahulr
 categories: [ NLP, Kaggle ]
 image: assets/images/2.jpg
 github: https://github.com/imrahulr/Toxic-Comment-Classification-Kaggle
+description: Deep learning to identify and classify toxic comments on online forums.
 ---
-
->Deep learning to identify and classify toxic comments on online forums.
 
 This post presents our solution for <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge">Toxic Comment Classification Challenge</a> hosted on Kaggle by Zigsaw. This solution ranked 15th on the private leaderboard. The code can be found in <a href="https://github.com/imrahulr/Toxic-Comment-Classification-Kaggle">this</a> GitHub repository.
 

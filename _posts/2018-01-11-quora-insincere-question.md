@@ -4,9 +4,8 @@ title:  "Quora Insincere Questions Classification"
 author: imrahulr
 categories: [ NLP, Deep Learning, Kaggle ]
 image: assets/images/6.jpg
+description: Deep learning for detecting insincere questions posted on Quora. This will aid to improve online conversations on Quora by impeding toxic content.
 ---
-
->Deep learning for detecting insincere questions posted on Quora. This will aid to improve online conversations on Quora by impeding toxic content.
 
 This post provides our solution for <a href="https://www.kaggle.com/c/quora-insincere-questions-classification">Quora Insincere Questions Classification</a> hosted on Kaggle by Quora. This solution ranked 33th on the private leaderboard. The code can be found in <a href="https://github.com/imrahulr/Quora-Insincere-Questions">this</a> GitHub repository.
 

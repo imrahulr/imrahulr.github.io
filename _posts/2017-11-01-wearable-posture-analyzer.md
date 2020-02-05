@@ -4,9 +4,8 @@ title:  "Wearable Posture Analyzer and Improvement System"
 author: imrahulr
 categories: [ Machine Learning, Signal Processing, Texas Instruments, Fitness, DST ]
 image: assets/images/8.jpg
+description: Track user posture and provide suggestions to improve his/her posture using machine learning.
 ---
-
->Track user posture and provide suggestions to improve his/her posture using machine learning.
 
 This idea was presented at <a href="https://innovate.mygov.in/india-innovation-challenge-design-contest-2017/">DST & Texas Instruments India Innovation Challenge Design Contest 2017</a> anchored by NSRCEL, Indian Institute of Management, Bangalore (IIMB) and supported by MyGov. Our team reached the Quarter Finals of this contest wherein we built a prototype of the idea. This post provides a detailed report of the idea and it's implementation in hardware and software.
 
