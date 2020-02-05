@@ -355,6 +355,7 @@ span.post-name a,span.post-read-more a:hover {
 }
 .intro-text {
     color: #888;
+    text-align: justify;
 }
 .intro h1 {
     margin-top: 2rem;
@@ -369,7 +370,6 @@ span.post-name a,span.post-read-more a:hover {
 }
 .intro-hr {
     border: none;
-    width: 50%;
     border-top:1px solid;
     margin:1em 15%; 
     height:2px;
