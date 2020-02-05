@@ -6,6 +6,7 @@ meta_description: "My Personal Website"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 6
+paginate_path: _posts/
 baseurl: '/'
 email: 'rsrade14@gmail.com'
 google_analytics: 'UA-141139264-1'
