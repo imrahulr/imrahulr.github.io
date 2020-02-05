@@ -715,6 +715,9 @@ a.btn {color:#fff;}
 	margin-bottom:1.5rem;
 	max-width:100%;
 }
+.postbox-btn {
+    padding-right: 20px;
+}
 .authorpostbox .img-thumb {
 	width:100%;
 }
