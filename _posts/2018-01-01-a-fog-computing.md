@@ -3,7 +3,7 @@ layout: post-right-sidebar
 title:  Fog Computing
 author: imrahulr
 categories: [ Fog Computing, CoE-CNDS, Wireless Sensoe Networks ]
-image: assets/images/4.png  
+image: assets/images/11.jpg  
 description:  A python framework for Fog computing which is capable of performing both supervision and control of wireless sensor networks of any type.
 github: https://github.com/imrahulr/FogComputing
 ---
