@@ -341,6 +341,12 @@ span.post-name a,span.post-read-more a:hover {
     z-index: 1;
     position: relative;
 }
+.intro .degree {
+    font-size: 20px;
+}
+.intro .bio {
+    text-align: justify;
+}
 .intro .btn {
     background: #fff100;
     border: 0;
@@ -355,7 +361,9 @@ span.post-name a,span.post-read-more a:hover {
 }
 .intro-text {
     color: #888;
-    text-align: justify;
+}
+.bg-grey {
+    background-color: #e6e6e6;
 }
 .intro h1 {
     margin-top: 2rem;
