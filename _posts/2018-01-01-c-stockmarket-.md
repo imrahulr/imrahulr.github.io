@@ -1,6 +1,6 @@
 ---
 layout: post-right-sidebar
-title:  "Stock Market Prediction"
+title:  Stock Market Prediction
 author: imrahulr
 categories: [ Deep Learning, Time Series Analysis, Sentiment Analysis ]
 image: assets/images/4.png  

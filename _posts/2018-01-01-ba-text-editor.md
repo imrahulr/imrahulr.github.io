@@ -1,6 +1,6 @@
 ---
 layout: post-right-sidebar
-title:  "Stock Market Prediction"
+title:  Text Editor
 author: imrahulr
 categories: [ OOP, Data Structures, Java ]
 image: assets/images/4.png  

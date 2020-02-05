@@ -1,6 +1,6 @@
 ---
 layout: post-right-sidebar
-title:  "Fog Computing"
+title:  Fog Computing
 author: imrahulr
 categories: [ Fog Computing, CoE-CNDS, Wireless Sensoe Networks ]
 image: assets/images/4.png  
