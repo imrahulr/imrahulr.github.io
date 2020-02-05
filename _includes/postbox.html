@@ -23,6 +23,9 @@
                 {% if post.demo %}
                 <a class="highlight" href="{{ post.demo }}"><button type="button" class="btn btn-warning btn-sm postbox-btn" style="font-size:12px;">GITHUB</button></a>                
                 {% endif %}
+                {% if post.paper %}
+                <a class="highlight" href="{{ post.paper }}"><button type="button" class="btn btn-info btn-sm postbox-btn" style="font-size:12px;">GITHUB</button></a>                
+                {% endif %}
                 <!-- <span class="post-name"><a target="_blank" href="{{ author.web }}">{{ author.display_name }}</a></span><br/> -->
                 <!-- {% endif %} -->
                 <!-- <span class="post-date">{{ post.date | date_to_string }}</span> -->
