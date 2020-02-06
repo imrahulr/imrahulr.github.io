@@ -8,6 +8,8 @@ description: Generative Adversarial Networks to generate fake face-swapped video
 demo: https://www.youtube.com/embed/f1zh0dQ3nrA?rel=0&amp;showinfo=0
 ---
 
+> Work done at CoE-CNDS Lab, VJTI under Prof. Dr. Faruk Kazi.
+
 <a href="https://en.wikipedia.org/wiki/Deepfake">Deepfake</a> is a technique for human image synthesis based on artificial intelligence. It is used to combine and superimpose existing images and videos onto source images or videos using a machine learning technique called a "generative adversarial network" (GAN). In other words, deepfakes are fake videos or audio recordings that look and sound just like the real thing.
 
 #### Swapping Faces and Tampering Speech

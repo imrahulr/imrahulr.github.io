@@ -10,6 +10,9 @@ report: https://github.com/imrahulr/Predictive-Threat-Intelligence/blob/master/T
 paper: https://link.springer.com/chapter/10.1007/978-981-13-3582-2_3
 ---
 
+> Bachelor Thesis at CoE-CNDS Lab, VJTI under Prof. Dr. Faruk Kazi.
+
+
 Today, **threat intelligence** has become one of the emerging cynosures of information security. It's main functions include identifying the potential threats and predicting the nature of an attacker. Big data analytics solutions, backed by machine learning and artificial intelligence, can help tackle such problems of cybersecurity breach and hacking. By employing the power of big data and machine learning, we can significantly improve cyber threat detection mechanisms. Most recent work has focused on the detection of concrete network attacks using <a href="https://en.wikipedia.org/wiki/Intrusion_detection_system">Intrusion Detection Systems (IDS)</a> to raise an alert which subsequently requires human attention. However, we think inspecting the behavioural aspect of an attacker is more intuitive in order to take necessary security measures. So, in this work, we exploit machine learning algorithms for modelling attacker behaviour in order to better foresee his/her future actions. The results of these models are used to analyze different attack propagation and interaction patterns present in the system. These patterns can be used for a better understanding of the existing or evolving attacks and may also aid security experts to comprehend the mindset of an attacker. Additionally, we incorporate these machine learning algorithms into a big data system
 utilizing <a href="https://kafka.apache.org/documentation/streams/">Kafka Streams</a>. The code for this post can be found in <a href="https://github.com/imrahulr/Predictive-Threat-Intelligence">this</a> GitHub repository. 
 
