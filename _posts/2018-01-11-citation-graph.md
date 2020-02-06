@@ -1,6 +1,6 @@
 ---
 layout: post-right-sidebar
-title:  "Recreating arXiv Citation Graph using Recurrent Neural Networks"
+title:  Recreating arXiv Citation Graph using Recurrent Neural Networks
 author: imrahulr
 categories: [ RNNs, Deep Learning, NER, CRF, Siamese Network ]
 image: assets/images/14.jpg
@@ -12,7 +12,7 @@ report: https://git.ee.ethz.ch/rarade/arxiv-citation-graph/blob/master/report_ar
 
 > Semester Thesis at the Chair for Mathematical Information Science, ETH Zürich under Prof. Dr. Helmut Bölcskei.
 
-# Oveview
+## Oveview
 
 The usefulness of a bibliographic database depends highly on a consistent citation graph which links the papers present in the database. Owing to the large variations in citation formats used for listing bibliographic information, it has become an increasingly difficult problem to accurately find the corresponding cited papers. In this work, we make an attempt towards recreating arXiv citation graph using only the raw LaTeX dump of research articles. We present a novel generalised pipeline which employs a combination of traditional heuristics and modern deep learning methods to find the list of papers cited by an article. The proposed 3-stage pipeline is illustrated in figure below.
 
