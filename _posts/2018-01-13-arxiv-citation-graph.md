@@ -2,10 +2,9 @@
 layout: post-right-sidebar
 title:  Recreating arXiv Citation Graph using Recurrent Neural Networks
 author: imrahulr
-categories: [ Neural Networks, Provable Robustness, Zonotope, Abstract Interpretation ]
+categories: [ RNNs, Deep Learning, Siamese Network ]
 image: assets/images/14.jpg
-description: A novel pipeline which employs a combination of traditional heuristics and modern deep learning
-methods to find the list of papers cited by an article. 
+description: A sound and precise automated verifier for certifying robustness of neural networks based on Zonotope abstraction.  
 report: https://drive.google.com/file/d/1OD2-nPQSWPRiiz9PI9nS0N2Vljy_VriI/view?usp=sharing
 ---
 
