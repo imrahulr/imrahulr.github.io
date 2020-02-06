@@ -6,8 +6,6 @@ categories: [ RNNs, Deep Learning, Siamese Network ]
 image: assets/images/14.jpg  
 description:  A novel pipeline which employs a combination of traditional heuristics and modern deep learning
 methods to find the list of papers cited by an article.
-github: https://git.ee.ethz.ch/rarade/arxiv-citation-graph
-report: https://git.ee.ethz.ch/rarade/arxiv-citation-graph/blob/master/report_arxiv_final.pdf
 ---
 
 > Semester Thesis at the Chair for Mathematical Information Science, ETH Zürich under Prof. Dr. Helmut Bölcskei.
