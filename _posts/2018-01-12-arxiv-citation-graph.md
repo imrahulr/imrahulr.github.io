@@ -3,8 +3,8 @@ layout: post-right-sidebar
 title:  Recreating arXiv Citation Graph using Recurrent Neural Networks
 author: imrahulr
 categories: [ RNNs, Deep Learning, NER, CRF, Siamese Network ]
-image: assets/images/14.jpg
-description: A novel pipeline which employs a combination of traditional heuristics and modern deep learning
+image: assets/images/14.jpg  
+description:  A novel pipeline which employs a combination of traditional heuristics and modern deep learning
 methods to find the list of papers cited by an article.
 github: https://git.ee.ethz.ch/rarade/arxiv-citation-graph
 report: https://git.ee.ethz.ch/rarade/arxiv-citation-graph/blob/master/report_arxiv_final.pdf
@@ -30,4 +30,3 @@ We evaluate the results of the pipeline on the datasets provided in the data cle
 <a href="https://www.cs.cornell.edu/projects/kddcup/download/KDDCup-Overview.pdf">KDD Cup Overview</a><br>
 <a href="https://git.ee.ethz.ch/rarade/arxiv-citation-graph/blob/master/report_arxiv_final.pdf">Report</a><br>
 <a href="https://arxiv.org/abs/1508.01991">Bidirectional LSTM-CRF Models for Sequence Tagging</a>
-
